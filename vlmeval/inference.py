@@ -3,6 +3,7 @@ import torch.distributed as dist
 from vlmeval.config import supported_VLM
 from vlmeval.utils import track_progress_rich
 from vlmeval.smp import *
+import re
 
 FAIL_MSG = 'Failed to obtain answer via API.'
 
@@ -176,7 +177,11 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
         data = dataset.data
         for x in data['index']:
             assert x in data_all
-        data['prediction'] = [str(data_all[x]) for x in data['index']]
+        # original:
+        # data['prediction'] = [str(data_all[x]) for x in data['index']]
+        # new:
+        data['prediction'] = [normalize_text(extract_predicted_value(data_all[x])) for x in data['index']]
+        data["model_output"] = [str(data_all[x]) for x in data['index']]
         if 'image' in data:
             data.pop('image')
 
@@ -186,3 +191,44 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
     if world_size > 1:
         dist.barrier()
     return model
+
+def normalize_text(text: str) -> str:
+    """
+    规范化文本：去除空格、换行符、标点符号等，并统一为小写。所有不属于“汉字、字母、数字、下划线”范畴的符号，都在被删除之列。
+    """
+    cleaned = re.sub(r'[^\w\u4e00-\u9fff]', '', text)
+
+    return cleaned.lower()
+
+def extract_predicted_value(predict_str: str) -> str:
+    """
+    1) First try to match the pattern \boxed{...} in the 'predict_str'.
+       - If we detect \text{...} inside the box, extract that inside.
+       - Otherwise, return the entire box content.
+    2) If there's no \boxed{...} match, then look for <Output>...</Output>:
+       - If found, return the text inside <Output> tags.
+    3) If neither is found, return "" (empty).
+    
+    Examples:
+      - "\\boxed{42}"                     -> "42"
+      - "\\boxed{\\text{Light blue}}"     -> "Light blue"
+      - "<Output>The final answer</Output>" (no box) -> "The final answer"
+    """
+    # 1) 尝试匹配 \boxed{...}
+    box_match = re.search(r'\\boxed\{(.*?)\}', predict_str, flags=re.DOTALL)
+    if box_match:
+        inside_box = box_match.group(1).strip()
+        # 如果内部还有形如 \text{...}，则再提取其中内容
+        text_match = re.match(r'\\text\{(.*?)\}', inside_box)
+        if text_match:
+            return text_match.group(1).strip()
+        else:
+            return inside_box
+    else:
+        # 2) 如果没有找到 \boxed{...}，则从 <Output>...</Output> 中提取
+        output_match = re.search(r'<Output>(.*?)</Output>', predict_str, flags=re.DOTALL)
+        if output_match:
+            return output_match.group(1).strip()
+        else:
+            # 3) 都没有匹配到时
+            return ""
