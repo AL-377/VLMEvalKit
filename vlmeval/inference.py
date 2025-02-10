@@ -180,7 +180,7 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
         # original:
         # data['prediction'] = [str(data_all[x]) for x in data['index']]
         # new:
-        data['prediction'] = [normalize_text(extract_predicted_value(data_all[x])) for x in data['index']]
+        data['prediction'] = [extract_predicted_value(data_all[x]) for x in data['index']]
         data["model_output"] = [str(data_all[x]) for x in data['index']]
         if 'image' in data:
             data.pop('image')
@@ -215,20 +215,30 @@ def extract_predicted_value(predict_str: str) -> str:
       - "<Output>The final answer</Output>" (no box) -> "The final answer"
     """
     # 1) 尝试匹配 \boxed{...}
+    try:
+        if not isinstance(predict_str, str):
+            predict_str = str(predict_str)
+    except Exception as e:
+        print(f"Error converting predict_str to string: {e}")
+        return ""
     box_match = re.search(r'\\boxed\{(.*?)\}', predict_str, flags=re.DOTALL)
-    if box_match:
-        inside_box = box_match.group(1).strip()
-        # 如果内部还有形如 \text{...}，则再提取其中内容
-        text_match = re.match(r'\\text\{(.*?)\}', inside_box)
-        if text_match:
-            return text_match.group(1).strip()
+    try:
+        if box_match:
+            inside_box = box_match.group(1).strip()
+            # 如果内部还有形如 \text{...}，则再提取其中内容
+            text_match = re.match(r'\\text\{(.*?)\}', inside_box)
+            if text_match:
+                return text_match.group(1).strip()
+            else:
+                return inside_box
         else:
-            return inside_box
-    else:
-        # 2) 如果没有找到 \boxed{...}，则从 <Output>...</Output> 中提取
-        output_match = re.search(r'<Output>(.*?)</Output>', predict_str, flags=re.DOTALL)
-        if output_match:
-            return output_match.group(1).strip()
-        else:
-            # 3) 都没有匹配到时
-            return ""
+            # 2) 如果没有找到 \boxed{...}，则从 <Output>...</Output> 中提取
+            output_match = re.search(r'<Output>(.*?)</Output>', predict_str, flags=re.DOTALL)
+            if output_match:
+                return output_match.group(1).strip()
+            else:
+                # 3) 都没有匹配到时
+                return ""
+    except Exception as e:
+        print(f"Error extracting predicted value: {e}")
+        return ""
