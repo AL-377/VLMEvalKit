@@ -148,6 +148,8 @@ You can launch the evaluation by setting either --data and --model or --config.
     parser.add_argument('--reuse', action='store_true')
     # Reuse-aux: if set, when reuse is True, will also reuse the auxiliary evaluation files
     parser.add_argument('--reuse-aux', type=bool, default=True, help='reuse auxiliary evaluation files')
+    # Is Boxed Model: if set, the model is a boxed model, and the prediction will be extracted from the prediction string
+    parser.add_argument('--is-boxed-model', action='store_true', help='if set, the model is a boxed model, and the prediction will be extracted from the prediction string')
 
     args = parser.parse_args()
     return args
@@ -317,7 +319,8 @@ def main():
                         dataset=dataset,
                         verbose=args.verbose,
                         api_nproc=args.api_nproc,
-                        ignore_failed=args.ignore)
+                        ignore_failed=args.ignore,
+                        is_boxed_model=args.is_boxed_model)
 
                 # Set the judge kwargs first before evaluation or dumping
 

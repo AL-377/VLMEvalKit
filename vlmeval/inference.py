@@ -144,7 +144,7 @@ def infer_data(model, model_name, work_dir, dataset, out_file, verbose=False, ap
 
 
 # A wrapper for infer_data, do the pre & post processing
-def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_nproc=4, ignore_failed=False):
+def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_nproc=4, ignore_failed=False, is_boxed_model=False):
     rank, world_size = get_rank_and_world_size()
     dataset_name = dataset.dataset_name
     result_file = osp.join(work_dir, f'{model_name}_{dataset_name}.xlsx')
@@ -177,10 +177,12 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
         data = dataset.data
         for x in data['index']:
             assert x in data_all
-        # original:
-        # data['prediction'] = [str(data_all[x]) for x in data['index']]
-        # new:
-        data['prediction'] = [extract_predicted_value(data_all[x]) for x in data['index']]
+        # set the config
+        if is_boxed_model:
+            data['prediction'] = [extract_predicted_value(data_all[x]) for x in data['index']]
+        else:
+            data['prediction'] = [str(data_all[x]) for x in data['index']]
+
         data["model_output"] = [str(data_all[x]) for x in data['index']]
         if 'image' in data:
             data.pop('image')
@@ -192,53 +194,73 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
         dist.barrier()
     return model
 
-def normalize_text(text: str) -> str:
-    """
-    规范化文本：去除空格、换行符、标点符号等，并统一为小写。所有不属于“汉字、字母、数字、下划线”范畴的符号，都在被删除之列。
-    """
-    cleaned = re.sub(r'[^\w\u4e00-\u9fff]', '', text)
-
-    return cleaned.lower()
-
 def extract_predicted_value(predict_str: str) -> str:
     """
-    1) First try to match the pattern \boxed{...} in the 'predict_str'.
-       - If we detect \text{...} inside the box, extract that inside.
-       - Otherwise, return the entire box content.
-    2) If there's no \boxed{...} match, then look for <Output>...</Output>:
-       - If found, return the text inside <Output> tags.
-    3) If neither is found, return "" (empty).
+    Extracts the predicted value from the input string based on the following rules:
+
+    format: <think>...</think>XXXXX/boxed{answer here}XXXXX
+
+    1) Look for <think> and </think>
+        if not found:
+            return empty string
+    2) Look for /boxed{}
+           a) \boxed{\text{...}...} and extract '...' plus any additional text.
+           b) \text{\boxed{...}} and extract '\boxed{...}'.
+           c) \boxed{...} and extract '...'.
+       - If no \boxed{...}:
+        return empty string
     
     Examples:
-      - "\\boxed{42}"                     -> "42"
-      - "\\boxed{\\text{Light blue}}"     -> "Light blue"
-      - "<Output>The final answer</Output>" (no box) -> "The final answer"
+      - "\\boxed{42}" -> "42"
+      - "\\boxed{\\text{Light blue}}" -> "Light blue"
+      - "<think>xxx</think>\\boxed{42}" -> "42"
+      - "<think>}</think>\\boxed{\\text{Light blue}" -> "Light blue"
+      - "no boxed content" -> ""
     """
-    # 1) 尝试匹配 \boxed{...}
-    try:
-        if not isinstance(predict_str, str):
-            predict_str = str(predict_str)
-    except Exception as e:
-        print(f"Error converting predict_str to string: {e}")
+    
+    # Step 1: Search for the <think>...</think> block
+    think_match = re.search(r'<think>(.*?)</think>', predict_str, flags=re.DOTALL)
+    
+    if not think_match:
         return ""
-    box_match = re.search(r'\\boxed\{(.*?)\}', predict_str, flags=re.DOTALL)
-    try:
-        if box_match:
-            inside_box = box_match.group(1).strip()
-            # 如果内部还有形如 \text{...}，则再提取其中内容
-            text_match = re.match(r'\\text\{(.*?)\}', inside_box)
-            if text_match:
-                return text_match.group(1).strip()
-            else:
-                return inside_box
-        else:
-            # 2) 如果没有找到 \boxed{...}，则从 <Output>...</Output> 中提取
-            output_match = re.search(r'<Output>(.*?)</Output>', predict_str, flags=re.DOTALL)
-            if output_match:
-                return output_match.group(1).strip()
-            else:
-                # 3) 都没有匹配到时
-                return ""
-    except Exception as e:
-        print(f"Error extracting predicted value: {e}")
-        return ""
+    
+    # Step 2: Get the end index of the </think> tag
+    end_index = think_match.end()
+
+    # # Step 3: Extract the content after the </think> tag
+    output_content = predict_str[end_index:]
+
+    # Step 4: Search for \boxed{\text{...}...} with additional text
+    box_text_extra_match = re.search(r'\\boxed\{\\text\{(.*?)\}(.*?)\}',output_content, flags=re.DOTALL)
+    if box_text_extra_match:
+        text_part = box_text_extra_match.group(1)
+        text_part = text_part.strip() if text_part is not None else ""
+        extra_part = box_text_extra_match.group(2)
+        extra_part = extra_part.strip() if extra_part is not None else ""
+        # Concatenate with a space if both parts are present
+        if extra_part:
+            return f"{text_part} {extra_part}"
+        return text_part
+    
+    # Step 2b: Search for \boxed{\text{...}} without additional text
+    box_text_match = re.search(r'\\boxed\{\\text\{(.*?)\}\}', output_content, flags=re.DOTALL)
+    if box_text_match:
+        matched_text = box_text_match.group(1)
+        return matched_text.strip() if matched_text is not None else ""
+    
+    # Step 2c: Search for \text{\boxed{...}} and reconstruct \boxed{...}
+    text_box_match = re.search(r'\\text\{\\boxed\{(.*?)\}\}', output_content, flags=re.DOTALL)
+    if text_box_match:
+        matched_text = text_box_match.group(1)
+        matched_text = matched_text.strip() if matched_text is not None else ""
+        # Reconstruct \boxed{...}
+        return f'\\boxed{{{matched_text}}}'
+    
+    # Step 2d: Search for \boxed{...} without \text{...}
+    box_match = re.search(r'\\boxed\{(.*?)\}', output_content, flags=re.DOTALL)
+    if box_match:
+        matched_text = box_match.group(1)
+        return matched_text.strip() if matched_text is not None else ""
+
+    # If no \boxed{...} found, return empty string
+    return ""
