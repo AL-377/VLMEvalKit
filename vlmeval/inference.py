@@ -179,7 +179,8 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
             assert x in data_all
         # set the config
         if is_boxed_model:
-            data['prediction'] = [extract_predicted_value(data_all[x]) for x in data['index']]
+            data['prediction_in_boxed'] = [extract_predicted_value(data_all[x]) for x in data['index']]
+            data['prediction'] = [extract_predicted_output(data_all[x]) for x in data['index']]
         else:
             data['prediction'] = [str(data_all[x]) for x in data['index']]
 
@@ -193,6 +194,30 @@ def infer_data_job(model, work_dir, model_name, dataset, verbose=False, api_npro
     if world_size > 1:
         dist.barrier()
     return model
+
+
+
+def extract_predicted_output(predict_str: str) -> str:
+    """
+    Extracts the predicted value from the input string based on the following rules:
+
+    format: <think>...</think>......output here ......
+    """
+    
+    think_match = re.search(r'<think>(.*?)</think>', predict_str, flags=re.DOTALL)
+    
+    if not think_match:
+        return predict_str
+    
+    end_index = think_match.end()
+    if end_index == len(predict_str):
+        return predict_str
+    
+    output_content = predict_str[end_index:]
+    return output_content
+
+
+
 
 def extract_predicted_value(predict_str: str) -> str:
     """

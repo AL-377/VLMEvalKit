@@ -195,8 +195,8 @@ class OpenAIWrapper(BaseAPI):
             headers = {'Content-Type': 'application/json', 'Authorization': self.key}
         else:
             headers = {'Content-Type': 'application/json', 'Authorization': f'Bearer {self.key}'}
-        print("Using API Base:")
-        print(self.api_base)
+        # print("Using API Base:")
+        # print(self.api_base)
         payload = dict(
             model=self.model,
             messages=input_msgs,

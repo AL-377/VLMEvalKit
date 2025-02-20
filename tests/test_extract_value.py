@@ -3,6 +3,24 @@ import pandas as pd
 import os
 import glob
 
+def extract_predicted_output(predict_str: str) -> str:
+    """
+    Extracts the predicted value from the input string based on the following rules:
+
+    format: <think>...</think>......output here ......
+    """
+    
+    think_match = re.search(r'<think>(.*?)</think>', predict_str, flags=re.DOTALL)
+    
+    if not think_match:
+        return predict_str
+    
+    end_index = think_match.end()
+    if end_index == len(predict_str):
+        return predict_str
+    
+    output_content = predict_str[end_index:]
+    return output_content
 def extract_nan_predictions(df, output_dir='nan_outputs'):
     # 创建输出目录（如果不存在）
     os.makedirs(output_dir, exist_ok=True)
@@ -114,6 +132,7 @@ if __name__ == "__main__":
             cnts["api_fail"] += 1
             continue
         value = extract_predicted_value(predict_str)
+        output = extract_predicted_output(predict_str)
         if not value or len(value)==0:
             cnts["extract_fail"] += 1
             # 3. 收集一下有boxed但是没有抽出的来的情况
