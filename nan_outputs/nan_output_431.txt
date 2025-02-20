@@ -1,0 +1,17 @@
+<think>
+Okay, let's see. The question is about finding the real GDP in the short-run equilibrium using the AD-AS diagram provided. The options are A. 500, B. 450, C. 400, D. 600. Hmm, first, I need to recall what an AD-AS diagram represents. AD stands for Aggregate Demand, and AS stands for Aggregate Supply. The intersection of these two curves gives the equilibrium price level and real GDP.
+
+Looking at the graph, the AD curve is the blue line, and the SRAS (Short-Run Aggregate Supply) is the red line. The LRAS (Long-Run Aggregate Supply) is the vertical black line at 500 real GDP. The equilibrium point should be where the AD curve intersects the SRAS curve. 
+
+Let me check the coordinates. The AD curve starts at the price level of 1000 when real GDP is 0, and it slopes downward to the right. The SRAS curve starts at a price level of 200 when real GDP is 0 and slopes upward to the right. The LRAS is vertical at 500 real GDP. 
+
+Looking for the intersection point between AD and SRAS. Let's see where they cross. The AD curve at a price level of 600 would intersect the SRAS curve. Let me check the graph. At the point where the AD curve crosses the SRAS curve, the real GDP is 400. Wait, let me verify. 
+
+At price level 600, the AD curve is at 600 on the vertical axis. The SRAS curve at that price level would be... Let's see, the SRAS curve starts at 200 when real GDP is 0. For each 100 increase in real GDP, the price level increases by 100. So at real GDP of 400, the SRAS would be 200 + (400/100)*100 = 200 + 400 = 600. So yes, at real GDP 400, both AD and SRAS are at 600. That must be the equilibrium point. 
+
+So the real GDP in the short-run equilibrium is 400, which is option C. Let me just check the other options to be sure. If the answer were 500, that would be the LRAS, which is the long-run equilibrium. But the question is about the short-run equilibrium, so it should be SRAS. The SRAS curve is upward sloping, so the equilibrium is at the intersection with AD, which is lower than LRAS. Therefore, 400 is correct. The other options don't seem to align with the graph. 600 is where AD intersects LRAS, which is the long-run equilibrium. 450 and 500 are somewhere in between but not where the curves cross. So yes, C is the right answer.
+</think>
+
+The short-run equilibrium occurs where the Aggregate Demand (AD) curve intersects the Short-Run Aggregate Supply (SRAS) curve. Observing the graph, the AD curve (blue) and SRAS curve (red) intersect at a real GDP of **400** billion, where the price level is 600. This point lies below the Long-Run Aggregate Supply (LRAS) curve (vertical line at 500), confirming it is the short-run equilibrium. 
+
+**Answer:** C. 400

@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to figure out what the interior surfaces of the upper walls and dome of the building were originally covered with. The options are sculptural decoration, frescoes, mosaics, or stucco. Let me start by looking at the images provided.
+
+First, the first image is a photo of the interior of a building with a large dome. The dome is illuminated from below, and the walls have arched windows. The second image is a floor plan showing the layout with a nave, aisles, and an apse. The building looks like a basilica or a church, possibly from the Byzantine period, given the dome and the layout.
+
+Now, considering the options. Mosaics are a common decoration in Byzantine architecture, especially in churches. They use small colored tiles or glass pieces to create images or patterns. The dome in the photo has a star design, which might be a mosaic. The walls also have arched windows, and the overall opulence suggests decorative elements like mosaics.
+
+Frescoes are paintings applied to wet plaster, which typically require a fresco technique. While frescoes can be used in churches, they are more associated with later periods, like the Renaissance. The Byzantine period was earlier, so frescoes might be less likely unless it's a later restoration. However, the question says "originally," so it's probably the original decoration.
+
+Stucco is a plaster material used for decorative purposes. It can be painted or painted over. While stucco might be used for walls, it's not typically associated with the intricate designs seen in the dome. The dome's design looks too detailed for stucco, which is more of a plain covering.
+
+Sculptural decoration involves statues or carvings. The photo doesn't show any statues, and the walls have arched windows, which might be openings rather than sculptural elements. So sculptural decoration seems less likely.
+
+Putting this together, the most probable answer is mosaics. The dome's star design and the overall decorative style of the building point to mosaics being the original covering. Frescoes are possible but less likely in the original context, especially given the Byzantine period. Stucco and sculptural decoration don't fit the visual evidence as well.
+</think>
+
+The interior surfaces of the upper walls and dome of the building were originally covered with **mosaics**. The dome's intricate star design and the opulent, decorative style of the architecture align with Byzantine mosaics, which were commonly used in religious structures. While frescoes and stucco are possibilities, they are less characteristic of the Byzantine period, and the dome's complexity suggests mosaics as the primary decorative medium. 
+
+**Answer:** C. mosaics

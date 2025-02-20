@@ -1,0 +1,24 @@
+<think>
+Okay, so I need to figure out the attributable risk of smoking for cardiovascular diseases based on the given data. Let me start by recalling what attributable risk means. From what I remember, attributable risk is the difference in the incidence of a disease between the exposed group (smokers) and the unexposed group (non-smokers). It's essentially the number of cases of the disease that can be attributed to the exposure, in this case, smoking.
+
+The table provided has three categories: smokers, non-smokers, and the general population. The incidence rates are given in cases per 100,000 person-years. The general population's rate is 150 per 100,000 person-years. Smokers have 300, and non-smokers have 100. 
+
+So, the formula for attributable risk should be the difference between the incidence in smokers and non-smokers. That is, 300 (smokers) minus 100 (non-smokers) equals 200. But wait, the question is asking for the answer in 100,000 person years. The rates are already given per 100,000 person years, so maybe I just need to subtract those numbers directly.
+
+Let me double-check. Attributable risk is indeed the excess risk due to the exposure. So if smokers have a higher incidence, the excess risk is the difference between smokers and non-smokers. So 300 - 100 = 200. That would be 200 per 100,000 person years. Looking at the options, A is 200/100,000 person years. So that should be the answer.
+
+But wait, let me make sure I didn't mix up anything. The general population's rate is 150. But the question is about the attributable risk of smoking, which is the difference between smokers and non-smokers. So yes, 300 - 100 = 200. The answer is A. Hmm, but let me think again. Maybe there's another way to calculate it, like using the population attributable risk percentage, but the question specifically asks for the attributable risk, not the percentage. So the direct difference is the correct approach here.
+
+Alternatively, maybe I should consider the population attributable risk, which is the proportion of cases in the general population that can be attributed to smoking. But the question is about the attributable risk of smoking, which is the absolute excess risk. So yes, the difference between smokers and non-smokers is the correct measure here. Therefore, 200 per 100,000 person years. So option A is correct.
+</think>
+
+The attributable risk of smoking for cardiovascular diseases is calculated by subtracting the incidence rate of non-smokers from smokers. 
+
+- Smokers: 300 cases/100,000 person-years  
+- Non-smokers: 100 cases/100,000 person-years  
+
+**Attributable risk** = 300 − 100 = **200 cases/100,000 person-years**.  
+
+This represents the excess risk of cardiovascular diseases specifically due to smoking.  
+
+**Answer:** A. 200/100,000 person years

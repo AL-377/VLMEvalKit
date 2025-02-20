@@ -1,0 +1,11 @@
+<think>
+Okay, so I need to figure out which graph represents transdermal absorption by active transport. Let me start by recalling what transdermal absorption means. Transdermal absorption is when a drug is absorbed through the skin, right? And active transport is when the drug is transported across the skin cells against a concentration gradient, which requires energy. So, the rate of absorption would depend on the concentration gradient and the energy available.
+
+Now, pharmacokinetic phenomena often relate to how the body processes a drug, including absorption, distribution, metabolism, and excretion. The graph in question here is plotting AUC (area under the curve) divided by dose versus dose. AUC is a measure of the total amount of the drug absorbed over time, so AUC/dose would give the concentration-time curve's area divided by the dose. If the graph is linear, that would mean the concentration is proportional to the dose, which is typical for first-order kinetics. But if it's not linear, maybe it's zero-order kinetics.
+
+But the question is about transdermal absorption by active transport. Let me think. Active transport is saturable, meaning that as the concentration increases, the rate of absorption increases up to a point, then plateaus when all the carriers are saturated. So, the AUC/dose ratio would start to plateau as the dose increases. That would look like a curve that rises and then levels off. That sounds like Graph 1, which shows an initial increase followed by a plateau. Graph 2 is a straight line, which would be zero-order kinetics, and Graph 3 is a curve that increases without plateauing, which might be first-order kinetics. But active transport is saturable, so the curve should plateau. Therefore, Graph 1 should represent active transport. So the answer is A. Graph 1.
+</think>
+
+The graph representing transdermal absorption by active transport is **Graph 1**. Active transport is saturable, leading to a plateau in the AUC/dose ratio as the dose increases, which matches the curve shown in Graph 1. Graph 2 (linear) represents zero-order kinetics, and Graph 3 (increasing without plateau) corresponds to first-order kinetics. 
+
+**Answer:** A. Graph 1

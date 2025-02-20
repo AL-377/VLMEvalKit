@@ -1,0 +1,41 @@
+<think>
+Okay, let's see. The question is about finding the conversion cost for Choco's Chocolates. The options are given, and I need to figure out which one is correct. 
+
+First, I remember that conversion cost is a key concept in manufacturing accounting. It's the sum of direct labor and manufacturing overhead. Manufacturing overhead includes things like factory depreciation, utilities, and other indirect costs related to production. 
+
+Looking at the provided costs, the direct materials are $15,000, direct labor is $25,000. Then there's factory depreciation expense of $45,000, factory utilities expense of $2,000, and payroll staff's salary of $15,000. 
+
+Wait, the payroll staff's salary is under "Payroll staff's salary," which I think is part of the direct labor. Because direct labor includes both direct wages and salaries of production workers. So maybe that's already included in the direct labor amount of $25,000. Let me check that. 
+
+So, direct labor is the cost of the people directly involved in making the product. That would include their wages and salaries. So if the payroll staff's salary is $15,000, that's part of the direct labor. Therefore, the $25,000 already includes that. So we don't need to add another $15,000 for that. 
+
+So the conversion cost would be direct labor plus manufacturing overhead. Manufacturing overhead here is the sum of factory depreciation and factory utilities. Let's add those up: $45,000 (depreciation) + $2,000 (utilities) = $47,000. 
+
+Then direct labor is $25,000. So total conversion cost is $25,000 + $47,000 = $72,000. 
+
+Looking at the options, C is $72,000. So that should be the answer. Let me double-check. 
+
+Wait, but maybe I made a mistake here. Let me go through again. 
+
+Direct materials: $15,000. That's a cost of goods sold, not part of conversion cost. 
+
+Direct labor: $25,000. That's part of conversion cost. 
+
+Factory depreciation: $45,000. That's part of manufacturing overhead, which is part of conversion cost. 
+
+Factory utilities: $2,000. Also part of manufacturing overhead. 
+
+Payroll staff's salary: $15,000. If that's part of direct labor, then yes, already included in $25,000. So total conversion cost is direct labor ($25k) plus manufacturing overhead ($45k + $2k) = $72k. 
+
+So the answer is C. $72,000. 
+
+I think that's right. Let me check the options again. A is 52k, B is 62k, C is 72k, D is 82k. Yep, C is correct.
+</think>
+
+The conversion cost includes direct labor and manufacturing overhead. Direct labor is $25,000, and manufacturing overhead consists of factory depreciation ($45,000) and factory utilities ($2,000). Adding these together:  
+\[
+25,000 + 45,000 + 2,000 = 72,000
+\]  
+The payroll staff's salary is part of direct labor and already included in the $25,000. Direct materials are a cost of goods sold, not part of conversion cost.  
+
+**Answer:** C. $72,000

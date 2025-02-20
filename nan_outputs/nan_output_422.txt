@@ -1,0 +1,51 @@
+<think>
+Okay, let's see. The question is about determining which country should specialize in producing shoes given that both Mexico and Nigeria have 90 workers. The table shows the number of workers needed to produce one unit of shoes and glasses for each country. 
+
+First, I need to understand the concept of comparative advantage here. Comparative advantage is the ability of a country to produce a good at a lower opportunity cost than another country. So, even if a country is less efficient in producing a good, it might still have a comparative advantage if it can produce that good at a lower opportunity cost compared to the other country.
+
+To figure this out, I should calculate the opportunity cost of producing one unit of shoes and one unit of glasses for both countries. The opportunity cost is the number of workers that must be given up to produce one additional unit of a good. 
+
+Let me start with Mexico. If Mexico has 90 workers, how many units of shoes can they produce? The table says 10 workers are needed for one pair of shoes. So, 90 workers divided by 10 workers per pair of shoes equals 9 pairs of shoes. Similarly, for glasses, 12 workers per pair, so 90 divided by 12 is 7.5 pairs. 
+
+Now for Nigeria. 18 workers per pair of shoes, so 90 divided by 18 is 5 pairs. For glasses, 5 workers per pair, so 90 divided by 5 is 18 pairs. 
+
+Wait, but the question is about specializing in shoes. So, the country that can produce shoes with a lower opportunity cost compared to the other country should specialize in shoes. 
+
+Let me compute the opportunity cost for each country. 
+
+For Mexico:
+- To produce one pair of shoes, they have to give up 90/10 = 9 pairs of glasses.
+- To produce one pair of glasses, they have to give up 90/12 = 7.5 pairs of shoes.
+
+For Nigeria:
+- To produce one pair of shoes, they have to give up 90/18 = 5 pairs of glasses.
+- To produce one pair of glasses, they have to give up 90/5 = 18 pairs of shoes.
+
+Comparing the opportunity costs:
+- Mexico's opportunity cost for shoes is 9 glasses per pair of shoes.
+- Nigeria's opportunity cost for shoes is 5 glasses per pair of shoes.
+
+Since Nigeria can produce shoes at a lower opportunity cost (5 glasses per pair) compared to Mexico (9 glasses per pair), Nigeria has a comparative advantage in producing shoes. Therefore, Nigeria should specialize in shoes, and Mexico should specialize in glasses. 
+
+Looking at the options, the correct answer should be A. Nigeria. But wait, let me double-check. The question is asking which country should specialize in shoes. So, if Nigeria has a lower opportunity cost for shoes, they should specialize in shoes. 
+
+Yes, that makes sense. So the answer is A. Nigeria.
+</think>
+
+To determine which country should specialize in producing shoes, we calculate the opportunity cost for each country. 
+
+**Mexico:**
+- **Shoes:** 90 workers / 10 workers per pair = 9 pairs of shoes.
+- **Glasses:** 90 workers / 12 workers per pair = 7.5 pairs of glasses.
+- **Opportunity cost of shoes:** 9 pairs of glasses per pair of shoes.
+- **Opportunity cost of glasses:** 7.5 pairs of shoes per pair of glasses.
+
+**Nigeria:**
+- **Shoes:** 90 workers / 18 workers per pair = 5 pairs of shoes.
+- **Glasses:** 90 workers / 5 workers per pair = 18 pairs of glasses.
+- **Opportunity cost of shoes:** 5 pairs of glasses per pair of shoes.
+- **Opportunity cost of glasses:** 18 pairs of shoes per pair of glasses.
+
+**Comparative Advantage:** Nigeria can produce shoes at a lower opportunity cost (5 glasses per pair) compared to Mexico (9 glasses per pair). Thus, **Nigeria** has a comparative advantage in shoes and should specialize in its production.
+
+**Answer:** A. Nigeria

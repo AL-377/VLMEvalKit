@@ -1,0 +1,25 @@
+<think>
+Okay, let's see. The question is about a price floor being imposed on Frisbees. The Congress voted to set a price floor $2 above the equilibrium price. We need to find the new market price after this price floor is in place. The options are A. 8, B. 9, C. 10, D. 11.
+
+First, I need to figure out the equilibrium price and quantity. Equilibrium occurs where the quantity demanded equals the quantity supplied. Let me look at the table provided.
+
+The table has prices from $6 to $11, with corresponding quantities demanded and supplied. Let me list them out:
+
+At $11: Demand is 1 million, Supply is 15 million. So, clearly, at $11, supply is way higher than demand. The market is in surplus here.
+
+At $10: Demand is 2 million, Supply is 12 million. Still, supply is higher than demand.
+
+At $9: Demand is 4 million, Supply is 9 million. Still, supply is higher.
+
+At $8: Demand is 6 million, Supply is 6 million. Wait, here, demand equals supply. So that's the equilibrium point. So equilibrium price is $8, and equilibrium quantity is 6 million.
+
+But the question says the price floor is $2 above the equilibrium price. The equilibrium price is $8, so the price floor would be $8 + $2 = $10. So the new market price is $10. Let me check the options. Option C is 10. So the answer should be C.
+
+Wait, but let me make sure. Sometimes, when a price floor is imposed above the equilibrium, the market price remains at the equilibrium price if the price floor is below the equilibrium price. But in this case, the price floor is $10, which is higher than the equilibrium price of $8. So the price floor is binding, meaning that the price cannot go below $10. But the question is asking for the new market price. If the price floor is binding, the market price would adjust to the price floor. But in this case, the equilibrium price is $8, and the price floor is $10. So the price would rise to $10. Therefore, the new market price is $10. So the answer is C.
+
+But let me double-check. The price floor is $2 above equilibrium, which is $10. The equilibrium price is $8. So the price floor is $10. If the price floor is above the equilibrium price, the market price will adjust to the price floor. So the new market price is $10. So yes, C is correct.
+</think>
+
+The equilibrium price is found where quantity demanded equals quantity supplied. From the table, at $8 per Frisbee, both demand (6 million) and supply (6 million) are equal. The equilibrium price is $8. The price floor imposed by Congress is $2 above this equilibrium, resulting in a new price of $10. Since the price floor is binding (higher than the equilibrium price), the market price adjusts to the price floor. 
+
+**Answer:** C. 10

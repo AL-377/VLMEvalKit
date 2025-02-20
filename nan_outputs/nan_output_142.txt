@@ -1,0 +1,17 @@
+<think>
+Okay, let's see. The question is about the type of roofs used in church interiors from a certain time period. The options are timber roofs, quadripartite vaults, pendentive domes, and masonry barrel vaults. 
+
+First, I need to visualize the two images provided. The first image shows the exterior of a church, which looks like it might be from the Byzantine period, given the brick construction and the domed structure. The second image is the interior of the same church, showing a long nave with columns and a high ceiling. 
+
+Looking at the interior, the ceiling has a series of arches supported by columns, creating a long, covered space. The ceiling appears to be a series of vaults. In Byzantine architecture, common vault types include barrel vaults, which are simple arches, and more complex ones like the quadripartite vault or pendentive domes. 
+
+Timber roofs (option A) are typically used in earlier periods, like Romanesque or before, but Byzantine churches often used stone vaults. The interior in the image has a high ceiling with a patterned design, which might be a quadripartite vault. Quadripartite vaults are square vaults divided into four sections by ribs, creating a star-like pattern. 
+
+Pendentive domes (option C) are used to transition from a square to a circular dome, but the interior here doesn't show a dome. It's more of a long, rectangular space with a vaulted ceiling. Masonry barrel vaults (option D) are simple arches, but the image shows a more complex vault structure with ribs and compartments. 
+
+So, considering the architectural features in the interior, the vaults are divided into sections, which is characteristic of quadripartite vaults. Therefore, the correct answer should be B.
+</think>
+
+The interior of the church features a vaulted ceiling with compartments divided by ribs, a hallmark of **quadripartite vaults**. These vaults are common in Byzantine architecture, where they create a star-like pattern and support the weight of domes or large spans. The other options (timber roofs, pendentive domes, and masonry barrel vaults) do not align with the architectural details observed in the image. 
+
+**Answer:** B. quadripartite vaults

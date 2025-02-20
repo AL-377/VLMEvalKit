@@ -1,0 +1,13 @@
+<think>
+Okay, let's see. The question is asking which thermometer stands for the international standard. The options are A. The top one and B. The bottom one. 
+
+First, I need to recall what the international standard for temperature measurement is. I remember that the Celsius scale is widely used internationally, while Fahrenheit is more common in the United States. The Kelvin scale is the SI unit, but maybe that's not relevant here. 
+
+Looking at the thermometers in the image, the top one has markings for Fahrenheit (F) and Celsius (C). The bottom one only has Celsius (C). The international standard is Celsius, right? Because Celsius is the SI derived unit for temperature. So the bottom thermometer, which only shows Celsius, is the one that represents the international standard. 
+
+Wait, but the top one has both Fahrenheit and Celsius. Maybe the question is referring to the primary scale used internationally. Since Celsius is the SI unit, the bottom one is the standard. The top one is a dual-scale thermometer, but the international standard is Celsius. So the answer should be B. The bottom one.
+</think>
+
+The international standard for temperature measurement is the Celsius scale, which is the SI unit. The bottom thermometer (Option B) displays only Celsius (°C), making it the correct choice. The top thermometer includes both Fahrenheit (°F) and Celsius, but the international standard is Celsius. 
+
+**Answer:** B. The bottom one

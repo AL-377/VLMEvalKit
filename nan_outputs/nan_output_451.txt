@@ -1,0 +1,13 @@
+<think>
+Okay, let's see. The question is about calculating the Consumer Price Index (CPI) for the base year 2015. The options are A through D, with A being 100. Hmm, CPI is a measure of the average change over time in the prices paid by consumers for a market basket of goods and services. The base year's CPI is always 100, right? So if 2015 is the base year, then the CPI for 2015 should be 100. That makes sense because the base year is used as a reference point where the price level is set to 100. 
+
+Wait, but let me double-check. The table shows prices for Apples and Textbooks in 2014, 2015, and 2016. The base year is 2015, so the CPI for 2015 would be 100. The options given are A:100, B:200, C:300, D:400. So the answer should be A. But let me make sure I'm not missing anything here. 
+
+The problem states that the base year is 2015, so by definition, the CPI for that year is 100. The other years are just regular years with their own CPI values relative to 2015. For example, in 2014, the CPI would be higher than 100, and in 2016, it would be lower. But since 2015 is the base year, its CPI is fixed at 100. Therefore, the correct answer is A. 100. 
+
+I don't see any trick here. The question is straightforward. The base year's CPI is always 100, so regardless of the actual prices, the answer is A. Yeah, that seems right.
+</think>
+
+The Consumer Price Index (CPI) for the base year (2015) is always set to 100 by definition. Since the problem specifies that 2015 is the base year, the CPI for 2015 must be **100**. 
+
+**Answer:** A. 100

@@ -1,0 +1,26 @@
+<think>
+Okay, let's try to figure out this question. So, the question is about dark adaptation curves and how rods and cones contribute to vision, especially under low-light conditions. The options are about which statement is true regarding color vision and rods/cones.
+
+First, I need to recall what I know about rods and cones. Rods are responsible for vision in low light, right? They're more sensitive to light but don't detect color. Cones are for color vision and work better in bright light. So, under low-light conditions, rods take over, but they can't detect color. That seems to be the basic idea.
+
+Looking at the options:
+
+A. Rods are responsible for color vision. That's not right because rods are for low light, not color. So A is probably wrong.
+
+B. Cones are responsible for color vision. That's correct because cones detect color. But the question is about low-light conditions. So under low light, rods dominate, so color vision isn't as good. So B is saying cones are responsible for color vision, which is true, but the statement is saying they explain greater color sensitivity under low light. That doesn't make sense because cones are less sensitive in low light. So B might be a trick option.
+
+C. Rods do not respond preferentially to wavelengths in the light spectrum, which explains why colors are not detectable in low-light conditions. This seems to align with what I know. Rods are more about sensitivity to light intensity rather than specific wavelengths (colors). So yes, that makes sense. So C is a possible correct answer.
+
+D. Both rods and cones respond to specific colors in the light spectrum; loss of color vision in dark conditions is the result of fewer photons of light. This is confusing. If both respond to colors, then why is color vision lost in dark conditions? But rods don't detect color, so maybe the statement is mixing things up. The loss of color vision in dark conditions is because rods aren't sensitive to color, so even if there are enough photons, rods can't detect color. So D is incorrect because it says both respond to colors, which isn't true.
+
+So between C and B. The question is which statement is true. The correct answer should be C. Because rods don't respond to specific wavelengths (colors), so they can't detect color. Therefore, in low light, when rods are active, color vision is lost. That's why colors aren't detectable in low-light conditions. So C is correct.
+
+B is about cones being responsible for color vision, which is true, but the statement says they explain greater color sensitivity under low light. But cones are less sensitive in low light, so that doesn't make sense. So B is incorrect.
+
+Therefore, the correct answer is C.
+</think>
+
+The correct answer is **C**. 
+
+**Explanation:**  
+Rods are responsible for vision in low-light conditions but do not detect color. Cones, which detect color, are less sensitive in low light. Thus, in dark conditions, rods dominate, leading to the loss of color vision. Options A and B misstate the roles of rods and cones. Option D incorrectly claims both respond to colors, which is false. Only **C** accurately explains why colors are not detectable in low-light conditions.

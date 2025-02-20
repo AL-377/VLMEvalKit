@@ -1,0 +1,17 @@
+<think>
+Okay, let's see. The question is asking for the total revenue of Hicks Products for the year ending December 31, 2017. The options are given, and I need to figure out which one is correct. 
+
+First, I should recall that total revenue is the total income generated from the sale of goods or services. In accounting terms, revenue is the amount of money received from customers for goods or services sold. So, looking at the provided data, the first line is "Sales revenue," which is listed as $3,100,000. 
+
+Wait, but let me check the other items to make sure none of them are revenue. The other entries include things like depreciation on office equipment, advertising expense, administrative salaries, cost of goods sold, and rent on corporate headquarters. These are all expenses, not revenues. Depreciation is a non-cash expense, advertising is a marketing expense, salaries are administrative costs, cost of goods sold is the cost to produce the products sold, and rent is an operating expense. 
+
+So, the only revenue listed here is the sales revenue of $3,100,000. The other items are expenses. Therefore, the total revenue should be $3,100,000. Looking at the options, option A is $3,100,000. So, the answer should be A.
+
+But wait, let me double-check. Sometimes, in accounting, there might be other revenues not listed here. For example, if they had any other sources of income, like interest income or dividend income, but the problem statement doesn't mention any. It just lists sales revenue and the other expenses. So, unless there's a trick here, the total revenue is just the sales revenue. 
+
+Therefore, I think the correct answer is A.
+</think>
+
+The total revenue for Hicks Products is explicitly stated as **$3,100,000** under the "Sales revenue" line. All other listed items (depreciation, advertising, salaries, cost of goods sold, rent) are expenses, not revenue. 
+
+**Answer:** A. $3,100,000

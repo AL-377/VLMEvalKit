@@ -1,0 +1,23 @@
+<think>
+Okay, let's see. The question is asking which layer in the IP stack is responsible for moving datagrams from the source to the destination. The options are Application, Transport, Network, Link, and Physical.
+
+First, I need to recall the functions of each layer in the OSI model. The IP stack here is the Internet Protocol stack, which is similar to the OSI model but has five layers instead of seven. Let me break them down:
+
+1. **Application Layer**: This layer handles the application-specific protocols like HTTP, FTP, etc. It's where the actual data processing happens, like sending emails or browsing websites. So, moving data here is more about the application's request rather than the network-level movement.
+
+2. **Transport Layer**: This layer deals with reliable data transfer. Protocols like TCP and UDP operate here. They handle things like segmentation of data into segments, error checking, and retransmission. So, moving data here is more about ensuring the data is sent correctly between hosts, not necessarily moving the datagrams themselves.
+
+3. **Network Layer**: This is where routing happens. Protocols like IP (Internet Protocol) are here. The network layer is responsible for determining the best path for packets (which are the same as datagrams here) from source to destination. It uses IP addresses to route the packets through the network. So, this layer would be directly involved in moving the datagrams from source to destination.
+
+4. **Link Layer**: This layer is concerned with the physical transmission of data over a specific link, like Ethernet or Wi-Fi. It handles things like framing the data into frames, error detection, and physical addressing (like MAC addresses). So, this layer is more about the physical layer of communication, not necessarily moving the datagrams from one host to another.
+
+5. **Physical Layer**: This is the lowest layer, dealing with the actual physical medium (wires, optical fibers, etc.) and the electrical signals. It's about transmitting bits over the physical medium. So, this is the physical infrastructure, not about moving data between hosts.
+
+Now, the question specifically mentions "moves datagrams from the source host to the destination host." The network layer (Layer 3) is responsible for routing the datagrams through the network. The transport layer (Layer 4) ensures reliable delivery, but the actual movement of the datagrams from one host to another is handled by the network layer. The link layer (Layer 2) is involved in transmitting the frames over the physical medium, but it's not about moving the datagrams between hosts. The physical layer (Layer 1) is about the physical transmission, not the network-level movement.
+
+So, the correct answer should be the Network Layer (C).
+</think>
+
+The Network Layer (Layer 3) in the IP stack is responsible for routing datagrams from the source host to the destination host. This layer uses IP addresses to determine the optimal path through the network and handles routing, ensuring that the datagrams traverse the correct network segments. The Transport Layer (Layer 4) ensures reliable data transfer between hosts, while the Link and Physical Layers handle lower-level communication and physical transmission. 
+
+**Answer:** C. Network Layer

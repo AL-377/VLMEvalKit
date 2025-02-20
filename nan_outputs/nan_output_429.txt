@@ -1,0 +1,31 @@
+<think>
+Okay, let's try to figure out this question. The question is about how an economy returns to long-run equilibrium after facing a boom, and wages are flexible. The options are A. Wages will fall, B. Wages will rise, or C. Wages will remain unchanged. 
+
+First, I need to recall what happens in the short run and long run when there's an increase in aggregate demand (AD). The graph shows LRAS (long-run aggregate supply) as a vertical line, SRAS (short-run aggregate supply) as a downward-sloping curve, and AD as a horizontal line. The initial equilibrium is at point A where AD intersects SRAS. 
+
+When there's a boom, aggregate demand shifts to the right, causing the price level to rise. But in the short run, the economy might be above the LRAS, so the price level is higher than the long-run equilibrium. The SRAS curve is downward-sloping, meaning that as the price level increases, the quantity of output supplied increases. However, in the long run, the economy should return to the LRAS, which is vertical. 
+
+Now, the key here is that wages are flexible. If wages are flexible, they can adjust to changes in the economy. In the short run, the higher price level might lead to higher nominal wages, but if wages are flexible downward, they can adjust. However, the question is about how the economy returns to the long-run equilibrium. 
+
+Wait, but if wages are flexible, does that mean they can adjust to the long-run equilibrium? In the long run, the economy should be at the LRAS, which is vertical. So, if wages are flexible, they can adjust downward to the level required to bring the SRAS back to the LRAS. 
+
+But how does that happen? Let's think. In the short run, the economy is at point A, which is above the LRAS. The SRAS is upward-sloping, so as the price level increases, the quantity supplied increases. But in the long run, the economy should be at the LRAS. So, if wages are flexible, they can adjust downward, which would shift the SRAS curve downward. 
+
+Wait, but if wages fall, that would lower the cost of production, so the SRAS curve would shift downward. That would lower the price level and bring the economy back to the LRAS. So, if wages fall, the SRAS curve shifts down, leading to a lower price level and output returning to the LRAS. 
+
+But the options are about what happens to wages. If wages fall, that's option A. If wages rise, that's B. If they remain unchanged, that's C. 
+
+But wait, in the short run, the economy is above the LRAS. The SRAS is upward-sloping, so as the price level increases, the quantity supplied increases. But in the long run, the economy should be at the LRAS. So, if wages are flexible, they can adjust downward. So, the SRAS shifts down, leading to a lower price level and output returning to the LRAS. 
+
+Therefore, the correct answer should be A. Wages will fall. Because in the long run, wages need to fall to bring the SRAS back to the LRAS. 
+
+But let me double-check. If wages are flexible, they can adjust downward. So, in the short run, the higher price level might lead to higher nominal wages, but if wages are flexible downward, they can adjust. However, the question is about how the economy returns to the long-run equilibrium. So, the process would be: the initial boom shifts AD right, causing a higher price level and higher output. In the short run, the economy is above LRAS. Then, as wages adjust downward, SRAS shifts down, leading to a lower price level and output returning to LRAS. 
+
+Therefore, wages must fall. So the answer is A.
+</think>
+
+The economy faces a boom due to an increase in aggregate demand (AD), shifting AD to the right. Initially, the price level rises, and the economy operates above the long-run aggregate supply (LRAS) curve. In the short run, the short-run aggregate supply (SRAS) curve is downward-sloping, so higher prices lead to higher output. However, in the long run, the economy must return to LRAS. 
+
+Since wages are flexible, they can adjust downward. This downward adjustment in wages reduces the cost of production, shifting the SRAS curve downward. As the SRAS curve moves leftward (downward), the price level decreases, and output returns to the LRAS. Thus, wages must fall to restore equilibrium. 
+
+**Answer:** A. Wages will fall.

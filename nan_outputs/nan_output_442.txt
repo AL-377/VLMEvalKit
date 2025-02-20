@@ -1,0 +1,25 @@
+<think>
+Okay, let's see. The question is about what event could shift the Long-Run Aggregate Supply (LRAS) curve from LRAS1 to LRAS2 in Brazil. The options are A. Increase in capital, B. Decrease in labor, C. Decrease in human capital.
+
+First, I need to recall what factors affect the LRAS curve. The LRAS curve represents the economy's potential output, which is determined by the country's productive capacity. This capacity is influenced by factors like labor, capital, technology, and human capital. 
+
+LRAS shifts when there's a change in the economy's productive potential. So, if the economy can produce more goods and services at each price level, the LRAS shifts outward (to the right). Conversely, if it can produce less, it shifts inward (to the left).
+
+Looking at the graph, LRAS1 is at a lower real GDP (around 100) and LRAS2 is at a higher real GDP (around 300). So, the LRAS has shifted to the right, meaning Brazil's productive capacity has increased.
+
+Now, let's analyze each option:
+
+A. Increase in capital: Capital includes things like machinery, equipment, and infrastructure. More capital would mean the economy can produce more goods and services. This would shift the LRAS outward. So, this could be a possible answer.
+
+B. Decrease in labor: If there's a decrease in the labor force, the economy's productive capacity would decrease. This would shift the LRAS inward. But the question is about shifting from LRAS1 to LRAS2, which is outward. So, a decrease in labor would move it the opposite direction. Therefore, B is probably not the correct answer.
+
+C. Decrease in human capital: Human capital refers to the skills and education of the workforce. If human capital decreases, workers might be less productive. This would also reduce the economy's productive capacity, shifting the LRAS inward. Again, this would move it in the opposite direction of what's needed here. So, C is also not the correct answer.
+
+Wait, but let me double-check. Human capital is about the quality of the workforce. If human capital decreases, even if the quantity of labor is the same, the economy might not be as productive. So, the LRAS would shift inward. Similarly, a decrease in labor would also shift it inward. So both B and C would shift it inward, which is the opposite of what's happening here. Therefore, the correct answer must be A, an increase in capital.
+
+But let me think again. If capital increases, that's a positive factor. More capital means more productive capacity. So, yes, that would shift the LRAS outward. So, the answer should be A. Increase in capital.
+</think>
+
+The Long-Run Aggregate Supply (LRAS) curve shifts outward (to the right) when the economy's productive capacity increases. An increase in capital (machinery, infrastructure) enhances production potential, directly contributing to this shift. A decrease in labor or human capital reduces productivity, shifting the LRAS inward. Thus, the correct answer is:
+
+**A. Increase in capital**

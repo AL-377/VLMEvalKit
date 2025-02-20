@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to figure out which of the three waves (A, B, or C) has the highest amplitude. Let me start by recalling what amplitude means in the context of waves. Amplitude is the maximum displacement of a wave from its equilibrium position. So, in a sine wave, it's the peak to trough distance. 
+
+Looking at the drawings, each wave is a sine wave. The key here is to compare how high each peak is relative to the others. The amplitude is determined by how far the wave's peaks are from the center line. 
+
+Looking at option A: The wave has a relatively large amplitude. The peaks are high, and the troughs are deep, but not the highest I've seen.
+
+Option B: This wave has peaks that are much higher than A. The peaks are almost touching the top of the graph, and the troughs are also deeper. So this seems like a higher amplitude.
+
+Option C: The peaks here are even higher than B. The wave is very tightly wound, almost like a spiral, with peaks that are way above the previous ones. The amplitude here must be the highest.
+
+Wait, but let me double-check. Amplitude is the maximum distance from the center. So if the peaks are higher, that's higher amplitude. Comparing A, B, and C, C's peaks are the highest. So the answer should be C.
+</think>
+
+To determine which wave has the highest amplitude, we compare the maximum displacement of each wave from its equilibrium position. 
+
+- **Wave A** has moderate peaks and troughs.  
+- **Wave B** has higher peaks than A but still not the highest.  
+- **Wave C** exhibits the most pronounced peaks and troughs, indicating the greatest amplitude.  
+
+**Answer:** C.

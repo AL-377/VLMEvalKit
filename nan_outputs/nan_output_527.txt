@@ -1,0 +1,88 @@
+<think>
+Okay, so Clare has $5,000 to invest, and she wants to find the rate of return on investment D. Let me think about how to approach this. 
+
+First, the problem mentions that all investments are equally risky, so we can assume the rate of return is the same for each. Since the investments are equally risky, we need to calculate the internal rate of return (IRR) for investment D. The IRR is the discount rate that makes the net present value (NPV) of the investment equal to zero. 
+
+The formula for NPV is: 
+
+NPV = -Initial Investment + (Future Value / (1 + IRR)^n)
+
+Where:
+- Initial Investment is $5,000
+- Future Value is $13,000
+- n is the number of years, which is 10 for investment D.
+
+So plugging in the numbers:
+
+NPV = -5000 + (13000 / (1 + IRR)^10) = 0
+
+We need to solve for IRR. Let's rearrange the equation:
+
+13000 / (1 + IRR)^10 = 5000
+
+Multiply both sides by (1 + IRR)^10:
+
+13000 = 5000 * (1 + IRR)^10
+
+Divide both sides by 5000:
+
+(1 + IRR)^10 = 13000 / 5000 = 2.6
+
+Now, take the 10th root of both sides:
+
+1 + IRR = (2.6)^(1/10)
+
+Then subtract 1 to find IRR:
+
+IRR = (2.6)^(1/10) - 1
+
+Let me compute that. 
+
+First, calculate 2.6 raised to the power of 1/10. 
+
+I can use logarithms or a calculator. Let me approximate this. 
+
+Alternatively, use natural logarithm:
+
+ln(2.6) / 10 ≈ 0.9652 / 10 ≈ 0.09652
+
+Exponentiate:
+
+e^0.09652 ≈ 1.099
+
+So, 2.6^(1/10) ≈ 1.099
+
+Therefore, IRR ≈ 0.099 or 9.9%, which is approximately 10%.
+
+Looking at the options, C is 10%, D is 9%, so the answer should be C. 
+
+Wait, but let me check my calculations again to be sure. 
+
+Alternatively, maybe use trial and error with the options given. 
+
+If IRR is 10%, then (1 + 0.10)^10 = 2.5937, so 13000 / 2.5937 ≈ 5,000. 
+
+Yes, that's exactly the NPV. So 10% gives NPV 0. Therefore, the correct answer is 10%, which is option C.
+</think>
+
+To determine the rate of return on investment D, we calculate the internal rate of return (IRR) using the net present value (NPV) formula. The NPV equation is:
+
+\[
+NPV = -5000 + \frac{13000}{(1 + IRR)^{10}} = 0
+\]
+
+Solving for \( IRR \):
+
+\[
+\frac{13000}{(1 + IRR)^{10}} = 5000 \implies (1 + IRR)^{10} = 2.6
+\]
+
+Taking the 10th root:
+
+\[
+1 + IRR = 2.6^{1/10} \approx 1.099 \implies IRR \approx 0.099 \text{ or } 9.9\%
+\]
+
+Approximating to the nearest 1%, the rate of return is **10%**.
+
+**Answer:** C. 10%

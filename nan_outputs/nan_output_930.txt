@@ -1,0 +1,23 @@
+<think>
+Okay, let's see. The problem is about a particle moving in a circular path at constant speed. So, it's going around the circle in a counterclockwise direction. The question is about the average velocity during a time interval where the particle moves from point P to point Q, and Q is exactly halfway around the circle from P. The options are rightward, leftward, upward, or the average velocity is zero. Hmm.
+
+First, I need to recall what average velocity is. Average velocity is the total displacement divided by the total time taken. So, displacement is the straight-line distance from the initial position to the final position, right? And direction is the direction of that displacement vector.
+
+Since the particle is moving in a circle, the displacement from P to Q would be a straight line connecting those two points. Let me visualize the circle. If P is at the rightmost point (let's say the positive x-axis), then Q is halfway around the circle. Since it's counterclockwise, halfway would be 180 degrees, so Q would be at the leftmost point (negative x-axis). So, the displacement from P to Q is from (1,0) to (-1,0), which is a straight line of length 2 units along the x-axis. So, the displacement vector is (-2, 0). 
+
+But wait, displacement is a vector, so direction is the direction of the displacement vector. Since the displacement is from P to Q, the direction is from P to Q. So, if P is at (1,0) and Q is at (-1,0), then the displacement vector is (-2, 0). So, the direction is leftward along the x-axis. But wait, the options are rightward, leftward, upward, or zero. So, the answer would be leftward, which is option B. But let me check again.
+
+Wait, maybe I'm mixing up displacement and velocity. Velocity is displacement over time. But average velocity is displacement divided by time. So, even if the particle is moving in a circle, the average velocity is just the displacement divided by the time taken. So, regardless of the path, the average velocity is just the straight-line distance from start to finish. So, in this case, since the displacement is leftward, the average velocity is leftward. So, answer B.
+
+But let me think again. Maybe the question is tricking me. The particle is moving in a circle, so the velocity is always tangent to the circle. But average velocity is displacement over time. So, even though the velocity is changing direction, the average velocity is just the straight line between P and Q. So, displacement is leftward, so average velocity is leftward. So, answer B.
+
+Alternatively, maybe I need to consider the instantaneous velocity vectors. But the question is about average velocity, not instantaneous. So, the average velocity is the total displacement divided by total time. So, regardless of the path, the average velocity is just the straight line between the two points. So, in this case, since Q is halfway around the circle from P, the displacement is leftward, so average velocity is leftward. So, answer B.
+
+Wait, but maybe the problem is in 3D? No, the diagram is a circle, so it's 2D. So, the displacement is along the x-axis. So, answer B. Hmm. But let me check again. Maybe I made a mistake in assuming the displacement is leftward. Let's see. If P is at (1,0) and Q is at (-1,0), then the displacement is indeed leftward. So, average velocity is leftward. So, answer B.
+
+Alternatively, maybe the problem is considering the direction of the average velocity vector. Since the displacement is leftward, the average velocity is leftward. So, answer B. So, I think the correct answer is B. Leftward.
+</think>
+
+The particle moves from point \( P \) to point \( Q \), which is halfway around the circular path. Since the circle is traversed counterclockwise, \( Q \) is diametrically opposite \( P \), located at the leftmost point. The displacement from \( P \) to \( Q \) is a straight line of length 2 units along the negative x-axis. Average velocity is displacement divided by time, so the direction of the average velocity vector is **leftward**.
+
+**Answer:** B. leftward

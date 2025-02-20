@@ -1,0 +1,21 @@
+<think>
+Okay, let's try to figure out this problem. So, the question is asking for the average price per share of the new stock sold during 2015. The options are given, and I need to calculate it based on the information provided in the balance sheets for 2014 and 2015.
+
+First, let me recall that stockholders' equity is calculated as Common Stock + Paid-in Capital in excess of par + Retained Earnings. The total stockholders' equity went from $2,370,000 in 2014 to $9,080,000 in 2015. The overall increase is $9,080,000 - $2,370,000 = $6,710,000. 
+
+Now, the common stock part: in 2014, it was $600,000, and in 2015, it's $1,200,000. So, the increase here is $1,200,000 - $600,000 = $600,000. That's from selling more shares. The par value is $1.00 per share, so the number of shares sold would be $600,000 / $1.00 = 600,000 shares. Wait, but the authorized shares are 5,000,000, and outstanding shares in 2014 were 600,000. So, in 2015, the outstanding shares are 1,200,000. That means they sold an additional 600,000 shares in 2015. So, the new shares sold in 2015 are 600,000.
+
+Then, the paid-in capital in excess of par increased from $250,000 to $5,500,000. The difference here is $5,500,000 - $250,000 = $5,250,000. This is the amount they received from selling the new shares. So, the total proceeds from the new shares would be the number of new shares sold multiplied by the price per share. So, 600,000 shares * price per share = $5,250,000. Therefore, the price per share would be $5,250,000 / 600,000 = $8.75. Hmm, that's option B.
+
+Wait, but let me check again. The paid-in capital in excess of par is the amount received over the par value. Since the par value is $1 per share, the total proceeds from the new shares would be the number of shares sold times the price per share. So, if the paid-in capital in excess is $5,250,000, then the total proceeds from the new shares are $5,250,000. Therefore, the price per share is 5,250,000 / 600,000 = 8.75. That seems right.
+
+But let me also check the retained earnings. The retained earnings increased from $1,520,000 to $2,380,000, which is an increase of $860,000. The dividends paid during 2015 were $240,000. So, the net income for 2015 would be retained earnings increase plus dividends paid. Wait, no. Wait, retained earnings increase is net income minus dividends. So, net income = retained earnings increase + dividends paid. So, net income = $860,000 + $240,000 = $1,100,000. That's just to verify, but maybe it's not necessary here.
+
+But the main point is that the paid-in capital in excess of par increased by $5,250,000, which comes from selling 600,000 shares at $8.75 per share. So, the average price per share is $8.75, which is option B. So, I think the answer is B.
+</think>
+
+The company sold 600,000 new shares in 2015. The paid-in capital in excess of par increased by $5,250,000 (from $250,000 to $5,500,000), which equals the total proceeds from these new shares. To find the average price per share:  
+\[
+\text{Price per share} = \frac{\$5,250,000}{600,000 \text{ shares}} = \$8.75
+\]  
+**Answer:** B. $8.75

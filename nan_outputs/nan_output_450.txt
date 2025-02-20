@@ -1,0 +1,34 @@
+<think>
+Okay, let's see. The question is about how changes in a and b affect the consumption line C in graph 1. First, I need to recall what a and b represent in a consumption function. 
+
+From what I remember, the consumption function is usually written as C = a + bY, where a is the autonomous consumption (the amount of consumption that occurs when income is zero) and b is the marginal propensity to consume (the fraction of additional income that is spent). 
+
+So, if a rises, that would mean autonomous consumption increases. In the graph, autonomous consumption is the vertical intercept when income Y is zero. Looking at graph 1, the line starts at (0,10), so a is 10. If a increases, the vertical intercept would move up to a higher value. That would shift the entire consumption line upwards. So option A says C shifts upwards, which seems correct for part (1).
+
+Now, part (2) asks what happens if b rises. If b increases, the marginal propensity to consume is higher. That means as income increases, consumption increases more steeply. In the graph, the slope of the line is determined by b. The original line has a slope that goes from (0,10) to (50,40). Let's calculate the slope. The change in C is 40 - 10 = 30, and the change in Y is 50 - 0 = 50. So slope is 30/50 = 0.6. If b increases, the slope becomes steeper. For example, if b was 0.7, the slope would be 35/50 = 0.7, which is steeper. So the consumption line would get steeper. Therefore, part (2) would be C gets steeper. 
+
+Looking at the options:
+
+A. (1) C shifts upwards. (2) C gets steeper. So that would be correct. 
+
+Wait, but let me check the options again. The options are:
+
+A. C shifts upwards.
+
+B. (1)C shifts downwards. (2) C gets gentler.
+
+C. (1)C gets steeper. (2) C gets gentler.
+
+D. (1)C shifts downwards. (2) C gets steeper.
+
+So the correct answer should be A. Because (1) a rising shifts C upwards, and (2) b rising makes C steeper. 
+
+But let me make sure. If a increases, autonomous consumption increases, so the vertical intercept moves up. If b increases, the slope becomes steeper. So yes, A is correct. The other options are incorrect. For example, option B says (1) shifts down, which is wrong. Option C says (1) gets steeper, which is also wrong. Option D says (1) shifts down and (2) gets steeper, but (1) is wrong. So A is the right answer.
+</think>
+
+The consumption function \( C = a + bY \) has \( a \) as autonomous consumption (vertical intercept) and \( b \) as the marginal propensity to consume (slope). 
+
+1. **If \( a \) rises**: Autonomous consumption increases, shifting the entire consumption line upward.  
+2. **If \( b \) rises**: The slope becomes steeper, indicating a higher marginal propensity to consume.  
+
+**Answer**: A. (1) C shifts upwards. (2) C gets steeper.

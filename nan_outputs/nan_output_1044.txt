@@ -1,0 +1,26 @@
+<think>
+Okay, let's try to figure out this question. The image shows three people: a press photographer, a reporter, and a businessman. The title is "value-neutrality." The options are about obesity in children and different approaches to addressing it. The question is asking which statement illustrates the concept of value-neutrality.
+
+First, I need to recall what value-neutrality means. From what I remember, value-neutrality in journalism or media refers to the idea that journalists should present information objectively without biasing it with their own values or opinions. They should present facts and let the audience form their own conclusions. So, the key here is that the statement should not take a stance on the cause of obesity or propose a solution, but rather present information neutrally.
+
+Looking at the options:
+
+A. Obesity in children is obviously a result of parental neglect and, therefore, schools should take a greater role to prevent it.
+This option is making a judgment about the cause of obesity (parental neglect) and suggests a solution (schools should take action). That seems like it's taking a value stance, not presenting neutral information.
+
+B. In 2003, states like Arkansas adopted laws requiring elementary schools to remove soft drink vending machines from schools.
+This is a factual statement about a law that was passed. It doesn't take a position on whether the law is good or bad, just states what happened. That sounds neutral.
+
+C. Merely restricting children's access to junk food at school is not enough to prevent obesity.
+This is an opinion or a judgment. It's saying that restricting junk food isn't sufficient, which implies that the speaker believes more is needed. That's taking a value stance.
+
+D. Physical activity and healthy eating are a fundamental part of a child's education.
+This is also a value statement. It's suggesting that these are important, which is an opinion rather than a neutral presentation of facts.
+
+So, the correct answer should be B, because it's presenting a factual event without taking a value position. The other options either suggest a cause, propose a solution, or express an opinion. Value-neutrality is about presenting facts without bias, so B fits that best.
+</think>
+
+The correct answer is **B. In 2003, states like Arkansas adopted laws requiring elementary schools to remove soft drink vending machines from schools.**  
+
+**Explanation:**  
+Value-neutrality in this context means presenting information objectively without biasing it with personal opinions or judgments. Option B states a factual event (laws were enacted) without taking a stance on the cause of obesity, the effectiveness of the law, or its broader implications. The other options either propose solutions, express opinions, or attribute causes, which aligns with value-bias rather than neutrality.

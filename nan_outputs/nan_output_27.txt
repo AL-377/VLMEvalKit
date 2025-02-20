@@ -1,0 +1,11 @@
+<think>
+Okay, so I need to figure out which put option must be written on the stock with the lower price between option A and B. Let's see. Both options are puts with the same parameters: T is 0.5 years, X is 50, σ is 0.2. The only difference is the price of the option: A is $10 and B is $12. The risk-free rate is 6%, and the stocks don't pay dividends. Hmm.
+
+First, I remember that the price of a put option is related to the stock price. The higher the stock price, the higher the put option price, right? Because if the stock is higher, the put option gives you the right to sell it at a lower price, which is more valuable. So if option B is more expensive ($12 vs. $10), it must be on a higher stock price. Therefore, the lower stock price would correspond to the cheaper option, which is option A. So the answer should be A.
+
+Wait, let me make sure I'm not mixing up puts and calls. For a call option, the price increases with the stock price, but for a put option, it's the opposite. Because a put option gives you the right to sell the stock, so if the stock is higher, the put is more valuable. So yes, higher stock price leads to higher put price. Therefore, the cheaper option is on the lower stock price. So option A is the cheaper one, so it's on the lower stock price. Therefore, the answer is A.
+</think>
+
+To determine which put option must be written on the stock with the lower price, we analyze the relationship between the stock price and the put option's value. For a put option, the value increases as the stock price rises. Since option B is more expensive ($12) than option A ($10), it must be priced on a higher stock price. Conversely, option A, being cheaper, must be priced on a lower stock price. 
+
+**Answer:** A. A

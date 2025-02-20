@@ -1,0 +1,15 @@
+<think>
+Okay, so I need to figure out which vessel(s) serve the areas involved in speech in the majority of people. The options are the right middle cerebral artery, left middle cerebral artery, both middle cerebral arteries, or both posterior cerebral arteries. Let me start by recalling some basic anatomy and neurology.
+
+First, the brain's vascular supply. The middle cerebral artery (MCA) is one of the major arteries in the brain. It supplies the lateral surface of the cerebral hemisphere, which includes the frontal, parietal, and temporal lobes. The posterior cerebral artery (PCA) supplies the occipital lobe and parts of the temporal lobe. The anterior cerebral artery supplies the medial surfaces of the frontal and parietal lobes.
+
+Now, areas involved in speech. Broca's area is located in the frontal lobe, specifically in the inferior frontal gyrus, near the Sylvian fissure. This area is responsible for speech production. Wernicke's area is in the temporal lobe, specifically the superior temporal gyrus, and is involved in language comprehension. Both Broca's and Wernicke's areas are typically in the left hemisphere in most right-handed individuals. However, in left-handed people, these areas can be in either hemisphere or both, but the majority are left-sided.
+
+So, Broca's area is in the left frontal lobe, which is supplied by the left middle cerebral artery. Wernicke's area is in the left temporal lobe, which is also supplied by the left MCA. The right MCA would supply the right hemisphere, which is less involved in language processing. The posterior cerebral arteries supply the occipital and temporal lobes, but the primary language areas are in the frontal and temporal lobes, which are supplied by the MCA.
+
+Therefore, the left MCA is responsible for the majority of speech areas. The right MCA is less involved. The PCAs supply the occipital and some temporal areas, but not the primary language areas. So the answer should be option B: Left middle cerebral artery.
+</think>
+
+The left middle cerebral artery (MCA) primarily supplies the left frontal and temporal lobes, which are critical for speech production (Broca's area) and comprehension (Wernicke's area) in the majority of right-handed individuals. The right MCA serves the right hemisphere, which is less involved in language. The posterior cerebral arteries (PCAs) supply the occipital and some temporal regions but not the primary language areas. 
+
+**Answer:** B. Left middle cerebral artery.

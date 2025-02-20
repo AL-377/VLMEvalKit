@@ -1,0 +1,29 @@
+<think>
+Okay, let's see. The question is about calculating the expected rate of return for a stock using a three-factor APT model. The options are given, and I need to figure out which one is correct. 
+
+First, I remember that the APT model is an alternative to the Capital Asset Pricing Model (CAPM). The APT model uses multiple factors to explain the expected return of a security. The formula for the expected return in APT is:
+
+E(R_i) = R_f + β_1 * E(R_1) + β_2 * E(R_2) + β_3 * E(R_3)
+
+Where:
+- E(R_i) is the expected return on the stock,
+- R_f is the risk-free rate,
+- β_1, β_2, β_3 are the factor loadings (sensitivities to each factor),
+- E(R_1), E(R_2), E(R_3) are the expected returns of the factors.
+
+But wait, the problem here doesn't give the factor loadings (β coefficients) for the stock. Hmm, that's a problem. Let me check the question again. Oh, right, the question says "A stock whose return is uncorrelated with all three factors." So, if the stock is uncorrelated with all three factors, that means its factor loadings (β coefficients) would be zero for each factor. Because if there's no correlation, the β coefficient is zero. 
+
+So, if the stock is uncorrelated with all three factors, then all β coefficients are zero. Therefore, the expected return would just be the risk-free rate, which is 7%. Let me confirm that. 
+
+In the APT model, the expected return is a linear combination of the risk-free rate and the expected returns of the factors, each multiplied by the stock's sensitivity to that factor. If the stock is uncorrelated with all factors, its sensitivities (βs) are zero. Therefore, the expected return is just R_f. 
+
+Looking at the options, B is 7%, which matches that. The other options are higher, which would make sense if the stock had some exposure to the factors. But since the stock is uncorrelated, the answer should be B. 
+
+Wait, let me make sure I didn't misread the question. The factors are "Change in GNP," "Change in energy prices," and "Change in long-term interest rates." The risk premiums are given as +5%, -1%, and +2% respectively. But the question is about the expected return of the stock. Since the stock is uncorrelated with all factors, the β coefficients are zero. Therefore, the expected return is just the risk-free rate. 
+
+Yes, that seems right. So the answer should be B. 7%.
+</think>
+
+The expected rate of return for a stock uncorrelated with all three factors in a three-factor APT model is determined by its sensitivity to each factor. Since the stock has no correlation with the factors (β coefficients = 0), its expected return is solely the risk-free rate. The risk-free rate provided is 7%. 
+
+**Answer:** B. 7%

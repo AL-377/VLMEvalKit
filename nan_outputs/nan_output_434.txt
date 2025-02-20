@@ -1,0 +1,29 @@
+<think>
+Okay, so I need to figure out what happens when the actual price in the pizza market is above the equilibrium price. The question is asking what drives the market toward equilibrium in that case. The options are A, B, C, or D. Let me start by recalling what equilibrium price and quantity are. 
+
+Equilibrium occurs where the quantity demanded equals the quantity supplied. So, I need to find the price where the quantity demanded and supplied meet. Let me look at the table provided. 
+
+Looking at the demand and supply schedules:
+
+At $4, demand is 135, supply is 26. So, demand is way higher than supply. At $5, demand is 104, supply is 53. Still, demand is higher. At $6, demand is 81, supply is 81. That's where they meet. So equilibrium is at $6, with 81 pizzas. 
+
+Now, the question is about a price above equilibrium. Let's say the price is higher than $6, like $7. At $7, demand is 68, supply is 98. So, supply is higher than demand. That means there's an excess supply. 
+
+Wait, excess supply is when there's more supply than demand, which would cause the price to decrease. So, if the actual price is above equilibrium, like $7, there's excess supply. That would drive the price down towards equilibrium. 
+
+But let me check the options. The options are A. excess supply, B. excess demand, C. both, D. neither. 
+
+So, if the price is above equilibrium, there's excess supply. Therefore, the answer should be A. excess supply. 
+
+But wait, let me make sure. If the price is above equilibrium, suppliers are willing to sell more than consumers want to buy. So, the market has an excess supply. Producers would be willing to sell more, but consumers aren't buying as much. This excess supply would put downward pressure on the price. 
+
+Alternatively, if the price were below equilibrium, there would be excess demand, which would push the price up. But the question is about the price being above equilibrium. 
+
+So, yes, excess supply drives the price down. Therefore, the correct answer is A. excess supply.
+</think>
+
+To determine what drives the market toward equilibrium when the price is above equilibrium, we first identify the equilibrium price and quantity. From the table, equilibrium occurs at a price of $6, where quantity demanded (81) equals quantity supplied (81). 
+
+If the actual price were above equilibrium (e.g., $7), the quantity supplied (98) would exceed the quantity demanded (68). This creates an **excess supply** (also known as a surplus), which puts downward pressure on the price. Producers would reduce their prices to sell the excess inventory, driving the market toward equilibrium. 
+
+**Answer:** A. excess supply

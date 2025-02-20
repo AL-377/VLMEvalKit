@@ -1,0 +1,13 @@
+<think>
+Okay, let's see. The question is about a sociologist studying the Occupy Wall Street movement using a theoretical approach. The options are symbolic interactionism, functionalism, conflict theory, and ethnocentrism. Hmm.
+
+First, I need to recall what each of these theories entails. Symbolic interactionism focuses on how people interact and the meanings they assign to social situations. Functionalism looks at how different parts of society work together to maintain stability. Conflict theory, on the other hand, emphasizes the struggles and inequalities between groups. Ethnocentrism is a term related to judging other cultures based on one's own, which isn't a theoretical approach but more of a bias.
+
+The Occupy movement is about economic disparity and inequality. So if the sociologist is examining interactions between members at Occupy camps, they might be looking at how people relate to each other and the dynamics of power and conflict. Conflict theory would fit here because it's about the struggles between different classes or groups, which is exactly what the Occupy movement is addressing. Symbolic interactionism might look at how individuals make sense of their experiences in the movement, but the question is about interactions between members, which could be more about the relationships and conflicts within the group rather than the broader societal structures.
+
+Functionalism might analyze how the movement contributes to the overall society, but again, the focus here is on the interactions within the camp. Ethnocentrism isn't a theory here; it's more about cultural biases, which isn't the case here. So the most likely answer is conflict theory. The sociologist would be looking at the conflicts and inequalities within the Occupy movement itself, as well as how they relate to larger economic issues. Therefore, the answer should be C. conflict theory.
+</think>
+
+The sociologist studying the Occupy Wall Street movement would most likely employ **conflict theory** (option C). This approach emphasizes the struggles and inequalities between social groups, aligning with the movement's focus on economic disparity. By examining interactions within Occupy camps, the sociologist would analyze power dynamics, conflicts, and the dynamics of class struggle, which are central tenets of conflict theory. Symbolic interactionism (A) focuses on individual meanings and interactions, while functionalism (B) emphasizes societal stability, and ethnocentrism (D) is a cultural bias, not a theoretical framework. 
+
+**Answer:** C. conflict theory

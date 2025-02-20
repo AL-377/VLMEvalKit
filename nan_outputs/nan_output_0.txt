@@ -1,0 +1,75 @@
+<think>
+Okay, let's see. I need to find the missing amounts for Company B. The table has revenues, expenses, gains, losses, and net income or loss. The question is asking for the missing amounts. Let me start by recalling the basic accounting equation: Net Income = Revenues - Expenses + Gains - Losses. Wait, but sometimes there might be other adjustments, but in this case, the table seems straightforward. Let me check each row step by step.
+
+Starting with Company B. The given data is:
+
+1. Revenues: $1,480,500
+2. Expenses: $1,518,300
+3. Gains: ?
+4. Losses: 0
+5. Net Income: $39,690
+
+Wait, but the question is asking for the missing amounts. Let me check the options. The options are A. $63,020, B. $58,410, C. $71,320, D. $77,490. So, the missing amount is in row 3, which is Gains. So, I need to find the value of Gains for Company B.
+
+So, using the formula: Net Income = Revenues - Expenses + Gains - Losses.
+
+Given that for Company B, Net Income is $39,690. Let's plug in the known values:
+
+39,690 = 1,480,500 - 1,518,300 + Gains - 0
+
+First, calculate 1,480,500 minus 1,518,300. Let's do that subtraction:
+
+1,518,300 - 1,480,500 = 37,800. So, 1,480,500 - 1,518,300 = -37,800.
+
+So, the equation becomes:
+
+39,690 = -37,800 + Gains
+
+Now, solve for Gains:
+
+Gains = 39,690 + 37,800
+
+Adding those together: 39,690 + 37,800. Let's compute that:
+
+39,690 + 37,800 = 77,490.
+
+So, Gains should be $77,490. Looking at the options, D is $77,490. Therefore, the correct answer is D.
+
+Wait, but let me double-check. Maybe I made a mistake in the calculation. Let me verify each step again.
+
+Revenues: $1,480,500
+
+Expenses: $1,518,300
+
+So, 1,480,500 - 1,518,300 = -37,800. Correct.
+
+Then, Net Income = -37,800 + Gains. And Net Income is 39,690. So, Gains = 39,690 + 37,800. Let's add 39,690 + 37,800:
+
+39,690 + 37,800. Break it down:
+
+39,000 + 37,800 = 76,800
+
+Then, 690 + 0 = 690
+
+So total is 76,800 + 690 = 77,490. Yes, that's correct. So Gains is $77,490, which is option D. Therefore, the answer should be D.
+</think>
+
+To determine the missing amount for Company B (Gains), we use the accounting equation:  
+**Net Income = Revenues - Expenses + Gains - Losses**  
+
+Given:  
+- **Net Income** = $39,690  
+- **Revenues** = $1,480,500  
+- **Expenses** = $1,518,300  
+- **Losses** = $0  
+
+First, calculate the net effect of revenues and expenses:  
+\( 1,480,500 - 1,518,300 = -37,800 \)  
+
+Substitute into the equation:  
+\( 39,690 = -37,800 + \text{Gains} \)  
+
+Solve for Gains:  
+\( \text{Gains} = 39,690 + 37,800 = 77,490 \)  
+
+**Answer:** D. $77,490

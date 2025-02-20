@@ -1,0 +1,27 @@
+<think>
+Okay, let's see. The question is about the divided Germany shown on the map. The options are A, B, C, D. I need to figure out which statement is NOT true. Let me go through each option one by one.
+
+Starting with option A: "The capital of West Germany was located in East Germany." Hmm, the map shows West Germany as the western part of Germany, and East Germany as the eastern part. The capital of West Germany is Bonn, right? And Bonn is in the western part. East Germany's capital was Berlin, which is in the eastern part. So if the capital of West Germany was in East Germany, that would be true. So A is probably true. So A is not the answer.
+
+Option B: "West Germany experienced a postwar economic miracle." I remember that after World War II, West Germany had a strong economic recovery, often called the "Wirtschaftswunder" or economic miracle. That's a well-known fact. So B seems true. Not the answer.
+
+Option C: "Both East Germany and West Germany were allowed to rearm." Wait, rearmament usually refers to countries being allowed to have their own armed forces. But after World War II, the Soviet Union occupied East Germany and West Germany. The West was allowed to rearm, but the East was under Soviet control. So maybe East Germany wasn't allowed to rearm? Because the Soviet Union might have restricted that. So if both were allowed to rearm, that would be false. So C might be the incorrect statement. Let me check.
+
+In the early post-war period, the Western Allies allowed West Germany to rearm, but East Germany was under Soviet control, so they didn't allow East Germany to rearm. So C is not true. Therefore, C is the answer.
+
+Option D: "France had occupied West Germany." Wait, France was one of the Western Allies. After World War II, France was part of the Allied occupation of Germany. So France did occupy West Germany. But the question is about which is NOT true. So if D is true, then it's not the answer. But if D is false, then it's the answer. Wait, the question is asking which is NOT true. So if D is true, then it's not the answer. But if D is false, then it is the answer. Let me confirm.
+
+After World War II, Germany was divided into four occupation zones: the Americans, British, French, and Soviet. So France did occupy West Germany. Therefore, D is true. So D is not the answer. Therefore, the answer must be C.
+
+Wait, but let me double-check. The question is which is NOT true. So if C is not true, then it's the answer. So yes, C is the correct answer.
+</think>
+
+The correct answer is **C. Both East Germany and West Germany were allowed to rearm**. 
+
+**Explanation:**  
+- **A** is true: Bonn, the capital of West Germany, is located in the western part of Germany.  
+- **B** is true: West Germany experienced a postwar economic recovery ("economic miracle").  
+- **C** is false: East Germany was under Soviet control and was not allowed to rearm, unlike West Germany.  
+- **D** is true: France occupied West Germany as part of the Allied post-war division.  
+
+Thus, **C** is the statement that is **not true** regarding the divided Germany shown on the map.

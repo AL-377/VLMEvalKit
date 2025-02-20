@@ -1,0 +1,61 @@
+<think>
+Okay, so I need to calculate the information ratio for stocks A and B based on the given index model regression results. Let me recall what the information ratio is. From what I remember, the information ratio measures the excess return per unit of active risk. The formula is usually (α) divided by the standard deviation of active returns. 
+
+First, let me make sure I have all the necessary components. The index model regression gives us the intercept (α) and the slope (β). The risk-free rate is 6%, and the market's average return is 14%. The residual standard deviation (σ(e)) is given for each stock, which I think is the standard deviation of the residuals from the regression, representing the active risk. 
+
+Wait, the standard deviation of excess returns is also provided. Let me check if that's the same as the active risk. The active risk is the risk that comes from the residual errors, which is exactly what σ(e) represents. So yes, the residual standard deviation is the active risk. 
+
+So for each stock, the information ratio would be the intercept (α) divided by the residual standard deviation (σ(e)). Let me write that down:
+
+Information Ratio = α / σ(e)
+
+For Stock A:
+α = 1% = 0.01
+σ(e) = 10.3% = 0.103
+
+So Information Ratio A = 0.01 / 0.103 ≈ 0.0971
+
+For Stock B:
+α = 2% = 0.02
+σ(e) = 19.1% = 0.191
+
+Information Ratio B = 0.02 / 0.191 ≈ 0.1047
+
+Looking at the options, option A has (1) 0.0971 and (2) 0.01047. That seems to match. Let me double-check the calculations.
+
+For Stock A:
+0.01 divided by 0.103. Let's compute that. 0.01 / 0.103. Let's convert 0.103 to a fraction. 103/1000. So 0.01 is 1/100. So (1/100) / (103/1000) = (1/100) * (1000/103) = 10/103 ≈ 0.0971. That's correct.
+
+For Stock B:
+0.02 / 0.191. Let's compute that. 0.02 / 0.191. Let's convert 0.191 to a fraction. 191/1000. So 0.02 is 2/100. So (2/100) / (191/1000) = (2/100) * (1000/191) = 20/191 ≈ 0.1047. That's correct.
+
+So the information ratios are approximately 0.0971 and 0.1047. Checking the options, option A has those numbers. The other options don't match. Let me check if there's any chance I mixed up the intercepts or the standard deviations. 
+
+Wait, the intercept for Stock A is 1%, which is 0.01, and for Stock B, 2%, which is 0.02. The residual standard deviations are 10.3% and 19.1%, which are 0.103 and 0.191. So the calculations are correct. 
+
+Therefore, the correct answer should be option A: (1) 0.0971 (2)0.01047.
+</think>
+
+To calculate the information ratio for each stock, we use the formula:
+
+\[
+\text{Information Ratio} = \frac{\alpha}{\sigma(e)}
+\]
+
+**For Stock A:**
+- Intercept (\(\alpha\)) = 1% = 0.01
+- Residual standard deviation (\(\sigma(e)\)) = 10.3% = 0.103
+
+\[
+\text{Information Ratio A} = \frac{0.01}{0.103} \approx 0.0971
+\]
+
+**For Stock B:**
+- Intercept (\(\alpha\)) = 2% = 0.02
+- Residual standard deviation (\(\sigma(e)\)) = 19.1% = 0.191
+
+\[
+\text{Information Ratio B} = \frac{0.02}{0.191} \approx 0.1047
+\]
+
+**Answer:** A. (1) 0.0971 (2)0.01047

@@ -1,0 +1,106 @@
+<think>
+Okay, let's see. The problem is about finding the new equilibrium price after adding more students to the college. The original demand and supply schedules are given, and then there's a new demand schedule for the additional 5,000 students. I need to combine the old demand with the new one and then find the equilibrium price where quantity demanded equals quantity supplied.
+
+First, let me recall that equilibrium occurs where the quantity demanded equals the quantity supplied. So, I need to add the old demand and the new demand schedules together for each price point and see which price makes the total demanded equal to the total supplied.
+
+Looking at the original demand schedule:
+
+At $4, old demand is 10,000 tickets.
+At $8, old demand is 8,000 tickets.
+At $12, old demand is 6,000 tickets.
+At $16, old demand is 4,000 tickets.
+At $20, old demand is 2,000 tickets.
+
+Then the new demand schedule for the additional 5,000 students:
+
+At $4, new demand is 4,000 tickets.
+At $8, new demand is 3,000 tickets.
+At $12, new demand is 2,000 tickets.
+At $16, new demand is 1,000 tickets.
+At $20, new demand is 0 tickets.
+
+So, to get the new demand schedule, I need to add the old demand and the new demand for each price. Let's do that step by step.
+
+Starting with $4:
+Old demand: 10,000
+New demand: 4,000
+Total demand: 10,000 + 4,000 = 14,000 tickets
+
+At $8:
+Old: 8,000
+New: 3,000
+Total: 11,000
+
+At $12:
+Old: 6,000
+New: 2,000
+Total: 8,000
+
+At $16:
+Old: 4,000
+New: 1,000
+Total: 5,000
+
+At $20:
+Old: 2,000
+New: 0
+Total: 2,000
+
+Now, let's look at the original supply schedule. The supply is always 8,000 tickets at every price. So, regardless of the price, the quantity supplied is 8,000.
+
+So, the new equilibrium price is where the total demand equals 8,000. Let's check each price:
+
+At $4: Total demand is 14,000. That's way higher than supply (8,000). So, not equilibrium.
+
+At $8: Total demand is 11,000. Still higher than supply.
+
+At $12: Total demand is 8,000. That's exactly equal to supply. So, this is the equilibrium point.
+
+At $16: Total demand is 5,000. Lower than supply.
+
+At $20: Total demand is 2,000. Lower than supply.
+
+Therefore, the equilibrium price should be $12. Let me double-check my calculations to make sure I didn't add incorrectly.
+
+Old demand at $4: 10,000. New demand: 4,000. Total: 14,000. Correct.
+
+At $8: 8,000 + 3,000 = 11,000. Correct.
+
+At $12: 6,000 + 2,000 = 8,000. Correct.
+
+At $16: 4,000 + 1,000 = 5,000. Correct.
+
+At $20: 2,000 + 0 = 2,000. Correct.
+
+Supply is always 8,000. So, the only price where total demand equals 8,000 is $12. Therefore, the answer should be C. 12.
+</think>
+
+To determine the new equilibrium price, we first combine the old demand schedule with the additional demand from the new students. 
+
+**Old Demand Schedule:**
+- $4: 10,000 tickets
+- $8: 8,000 tickets
+- $12: 6,000 tickets
+- $16: 4,000 tickets
+- $20: 2,000 tickets
+
+**New Demand Schedule (additional 5,000 students):**
+- $4: 4,000 tickets
+- $8: 3,000 tickets
+- $12: 2,000 tickets
+- $16: 1,000 tickets
+- $20: 0 tickets
+
+**Total Demand Schedule:**
+- $4: 10,000 + 4,000 = 14,000
+- $8: 8,000 + 3,000 = 11,000
+- $12: 6,000 + 2,000 = 8,000
+- $16: 4,000 + 1,000 = 5,000
+- $20: 2,000 + 0 = 2,000
+
+**Supply Schedule:**
+- All prices: 8,000 tickets
+
+The equilibrium occurs where total demand equals supply. At **$12**, total demand is 8,000, matching the supply. Prices below $12 result in excess demand, and prices above $12 result in excess supply.
+
+**Answer:** C. 12

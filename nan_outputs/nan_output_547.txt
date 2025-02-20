@@ -1,0 +1,63 @@
+<think>
+Okay, let's see. The problem is about calculating the expected rate of return for a stock using a three-factor APT model. The options are given, and I need to figure out which one is correct. 
+
+First, I remember that the APT model is an extension of the Capital Asset Pricing Model (CAPM) and includes multiple factors to explain the risk premium. The formula for the expected return in APT is similar to CAPM but with more factors. The general formula would be:
+
+E(R_i) = R_f + b_1 * E(R_1) + b_2 * E(R_2) + b_3 * E(R_3)
+
+Where:
+- E(R_i) is the expected return on the stock,
+- R_f is the risk-free rate,
+- b_1, b_2, b_3 are the betas (exposures) to each factor,
+- E(R_1), E(R_2), E(R_3) are the expected risk premiums for each factor.
+
+In this case, the stock has average exposure to each factor, meaning each beta (b) is 1. The risk-free rate is 7%. The factors and their risk premiums are given:
+
+1. Change in GNP: +5%
+2. Change in energy prices: -1%
+3. Change in long-term interest rates: +2%
+
+So, plugging these into the formula:
+
+E(R_i) = 7% + 1 * 5% + 1 * (-1%) + 1 * 2%
+
+Let me compute that step by step. 
+
+First, the risk-free rate is 7%. Then, each factor's contribution is multiplied by its beta (which is 1 for each). 
+
+For the GNP factor: 1 * 5% = +5%
+For energy prices: 1 * (-1%) = -1%
+For interest rates: 1 * 2% = +2%
+
+Adding these up: 7% + 5% -1% + 2% = 7% + 5% is 12%, minus 1% is 11%, plus 2% is 13%.
+
+So, the expected return should be 13%, which is option C. Let me double-check the calculations to make sure I didn't make a mistake.
+
+7% (risk-free) + 5% (GNP) = 12%
+12% - 1% (energy) = 11%
+11% + 2% (interest) = 13%
+
+Yes, that seems right. The answer should be C. 13%.
+</think>
+
+To calculate the expected rate of return using the three-factor APT model, we apply the formula:
+
+\[
+E(R_i) = R_f + \sum b_j \cdot E(R_j)
+\]
+
+Given:
+- Risk-free rate (\(R_f\)) = 7%
+- Betas (\(b_j\)) = 1 for each factor
+- Risk premiums:
+  - GNP: +5%
+  - Energy prices: -1%
+  - Interest rates: +2%
+
+Substituting the values:
+
+\[
+E(R_i) = 7\% + (1 \cdot 5\%) + (1 \cdot -1\%) + (1 \cdot 2\%) = 7\% + 5\% - 1\% + 2\% = 13\%
+\]
+
+**Answer:** C. 13%

@@ -1,0 +1,23 @@
+<think>
+Okay, let's see. The question is asking for the price level in the short-run equilibrium for Spain based on the AD-AS diagram provided. The options are A. 500, B. 450, C. 400, D. 600. 
+
+First, I need to recall what an AD-AS diagram represents. AD stands for Aggregate Demand, which is the total demand for goods and services in an economy. SRAS is the Short-Run Aggregate Supply, which shows how much output the economy can produce at different price levels in the short run. LRAS is the Long-Run Aggregate Supply, representing the economy's potential output when all factors are fully employed.
+
+In the short run, the economy is at the intersection of AD and SRAS. The long run is where AD intersects LRAS. The question is about the short-run equilibrium, so we need to find where AD and SRAS cross each other.
+
+Looking at the graph, the AD curve is the blue line, and the SRAS is the red line. The intersection point of these two curves will give the equilibrium price level and real GDP. 
+
+Let me check the coordinates where they cross. The AD line starts at the top left corner, going down to the right. The SRAS line starts at the bottom left, going up to the right. They must cross somewhere in the middle. 
+
+Looking at the grid, the AD line intersects the SRAS line at a point where the price level is 600. Let me confirm. At the price level of 600, the AD curve is at 600 on the vertical axis, and the SRAS curve is also at 600. So that's the equilibrium point. 
+
+Wait, but let me check the exact point. The AD line goes from (0,1000) down to (1000,0). The SRAS line goes from (0,150) up to (1000,1100). The intersection point must be where both lines meet. Let me estimate the coordinates. 
+
+At the price level of 600, the AD curve is at 600 on the vertical axis. The SRAS curve at 600 is also at 600. So that's the point where they cross. Therefore, the equilibrium price level is 600, which is option D. 
+
+But wait, let me check if there's another intersection. The LRAS is the vertical line at 500. But LRAS is only relevant in the long run. The short-run equilibrium is where AD meets SRAS, not LRAS. So the answer should be D. 600.
+</think>
+
+The short-run equilibrium occurs where the Aggregate Demand (AD) curve intersects the Short-Run Aggregate Supply (SRAS) curve. Observing the graph, the AD and SRAS lines cross at a price level of **600**. This point represents the equilibrium where the economy's demand equals its short-run supply. 
+
+**Answer:** D. 600

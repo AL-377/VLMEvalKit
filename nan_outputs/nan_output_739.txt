@@ -1,0 +1,29 @@
+<think>
+Okay, so I need to figure out which of these metals is the most reactive based on the given standard electrode potentials. Let me start by recalling what I know about electrochemistry. The standard electrode potential (E°) tells us the tendency of a metal to lose electrons and act as a reducing agent. A more negative E° value means the metal is more likely to lose electrons, making it a stronger reducing agent. Conversely, a more positive E° value means the metal is a weaker reducing agent, so it's more likely to be oxidized.
+
+Looking at the options given: A is Au, B is Cu, C is Ni, D is Fe, and E is Na. The question is asking which is the most reactive. So, I need to compare the E° values of each metal's reduction reaction. The metal with the most negative E° should be the most reactive because it has the highest tendency to lose electrons.
+
+Let me list out the E° values again for clarity:
+
+- Au: +1.420 V
+- Cu: +0.340 V
+- Ni: -0.250 V
+- Fe: -0.440 V
+- Na: -2.924 V
+
+Now, comparing these values. The more negative the E°, the more reactive the metal. So, Na has the most negative E° at -2.924 V. That means Na is the strongest reducing agent, so it should be the most reactive metal here. Let me check the other options to confirm. Au is +1.420, which is positive, so it's a weaker reducing agent. Cu is +0.340, also positive. Ni is -0.250, which is less negative than Na. Fe is -0.440, which is even less negative than Ni. So yes, Na has the most negative E°, making it the most reactive.
+
+Wait, but let me make sure I'm not mixing up anything. Sometimes, people get confused between reduction and oxidation potentials. But the standard electrode potential is for the reduction reaction. So, a more negative E° means the metal is more likely to lose electrons (reduce), which is the definition of a reducing agent. Therefore, the metal with the most negative E° is the most reactive. So, Na is the answer. The options are A to E, so E is Na. That seems right.
+</think>
+
+To determine the most reactive metal, we compare the standard electrode potentials (E°) of their reduction reactions. A more negative E° indicates a stronger tendency to lose electrons (acting as a reducing agent). 
+
+- **Au**: +1.420 V (least reactive)  
+- **Cu**: +0.340 V  
+- **Ni**: -0.250 V  
+- **Fe**: -0.440 V  
+- **Na**: -2.924 V (most reactive)  
+
+The most negative E° is for **Na** (-2.924 V), meaning it is the strongest reducing agent and thus the most reactive metal.  
+
+**Answer:** E. Na

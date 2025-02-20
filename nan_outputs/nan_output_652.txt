@@ -1,0 +1,21 @@
+<think>
+Okay, let's see. The question is asking which term best refers to sources that give verifiable factual information or explain some aspect of the biological, social, or physical world. The options are Epics, Multigenre Books, Informational Books, and Reference Books.
+
+First, I need to understand each term. Let's start with the options one by one.
+
+Epics are long narrative poems that tell the story of a hero's journey, often with elements of myth and legend. So that's more about storytelling and heroic tales, not factual information. So probably not A.
+
+Multigenre Books are books that combine different genres, like fiction and non-fiction, but the term itself doesn't specifically refer to factual information. So B might not be the right answer either.
+
+Informational Books. Hmm, that sounds like books that provide information. But the question specifies "sources that give verifiable factual information or explain some aspect of the biological, social, or physical world." So informational books are those that provide information, but not necessarily all of them. For example, a novel is informational in the sense that it tells a story, but it's not factual. So maybe C is a candidate, but let's check D.
+
+Reference Books. These are books designed to provide quick access to information, often in alphabetical order or categorized. They include encyclopedias, dictionaries, almanacs, etc. They are specifically meant to give factual information and help explain various aspects of the world. So D seems like a strong candidate.
+
+But wait, the question says "sources that give verifiable factual information or explain some aspect of the biological, social, or physical world." Reference books definitely fit that description. They are sources of information, and they are structured to provide factual content. Informational books (C) are a broader category that includes both fiction and non-fiction. So even though some informational books might have factual content, the term "informational books" isn't specific enough. Reference books are specifically for factual information and explanations.
+
+Therefore, the best answer should be D. Reference Books.
+</think>
+
+The term that best refers to sources providing verifiable factual information or explanations of biological, social, or physical aspects is **Reference Books**. These are specifically designed to offer quick access to information, often in structured formats like encyclopedias, almanacs, or dictionaries. While "Informational Books" (C) broadly include non-fiction works, they are not as narrowly focused on factual content as Reference Books. 
+
+**Answer:** D. Reference Books

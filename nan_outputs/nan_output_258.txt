@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to figure out whether the bromine addition to propene in this reaction is Markovnikov or non-Markovnikov. Let me start by recalling what Markovnikov's rule says. From what I remember, Markovnikov's rule states that in the addition of a dieneophile like HBr, HCl, etc., to an alkene, the hydrogen adds to the carbon that has more hydrogens, and the halogen adds to the carbon with fewer hydrogens. So, the rule is about the orientation of the hydrogen and halogen atoms. 
+
+In this case, the reaction is propene (which is CH2=CHCH3) reacting with bromine in the presence of water. The product is CH3CH(OH)CH2Br. Let me visualize the structure. The double bond is between the first and second carbon. The product has a hydroxyl group on the second carbon and a bromine on the third. 
+
+Wait, so the bromine is on the third carbon, which is the less substituted carbon. The first carbon is the most substituted (two methyl groups), the second is one methyl group, and the third is no substituents. So according to Markovnikov's rule, the bromine should add to the less substituted carbon. But wait, in the product, the bromine is on the third carbon, which is the least substituted. So that would be non-Markovnikov, right? Because Markovnikov would predict the bromine to add to the more substituted carbon (second carbon). 
+
+But wait, the question says that when propene is treated with N-bromosuccinimide in aqueous dimethyl sulfoxide, the major product has the bromine atom bonded to the less highly substituted carbon atom. So the product is CH3CH(OH)CH2Br. Let me check the structure again. The double bond is between C1 and C2. The product has a hydroxyl on C2 and a bromine on C3. So the bromine is on the third carbon, which is the least substituted. 
+
+But wait, in the Markovnikov addition, the hydrogen adds to the more substituted carbon (C2) and the bromine adds to the less substituted (C3). So the product would have the bromine on C3 and the hydrogen on C2. But in the reaction given, the product is CH3CH(OH)CH2Br, which means the bromine is on C3. So that would be non-Markovnikov. 
+
+But wait, the question is asking if this is Markovnikov or non-Markovnikov orientation. The options are A, B, or C. The answer is B. Non-Markovnikov. 
+
+But wait, I need to make sure I'm not confusing the addition mechanism here. The reaction is with N-bromosuccinimide in aqueous dimethyl sulfoxide. NBS is a common brominating agent. The mechanism for bromine addition to alkenes typically involves the formation of a bromonium ion intermediate. However, in some cases, especially with certain conditions, the bromonium ion might undergo a different pathway. 
+
+Wait, but in this case, the product is a bromohydrin, which is a result of the addition of HBr. So the mechanism would involve the alkene reacting with HBr, leading to the addition of HBr across the double bond. The orientation would depend on the usual Markovnikov addition. 
+
+But in the product, the bromine is on the less substituted carbon. So that would be non-Markovnikov. Therefore, the answer should be B. Non-Markovnikov orientation. 
+
+But wait, I need to confirm. Let me think again. The alkene is propene. The double bond is between C1 and C2. The product has a hydroxyl on C2 and a bromine on C3. So the bromine is on the less substituted carbon. According to Markovnikov, it should be on the more substituted carbon. Therefore, this is non-Markovnikov. 
+
+Therefore, the correct answer is B. Non-Markovnikov orientation. 
+
+But wait, the question says "the major product has the bromine atom bonded to the less highly substituted carbon atom." So the bromine is on the third carbon, which is the least substituted. So that's non-Markovnikov. 
+
+Yes, so the answer is B. Non-Markovnikov orientation.
+</think>
+
+The reaction involves propene (CH₂=CHCH₃) treated with N-bromosuccinimide (NBS) in aqueous dimethyl sulfoxide, yielding the bromohydrin CH₃CH(OH)CH₂Br. To determine the orientation, we analyze the substituents on the carbons adjacent to the double bond. 
+
+- The double bond is between **C1** (CH₃) and **C2** (CH₂). 
+- The product has a **bromine** on **C3** (CH₂Br) and a **hydroxyl** on **C2** (CH(OH)CH₂Br). 
+- **C3** is the least substituted carbon (no substituents), while **C2** is one substituent (CH₃). 
+
+Markovnikov's rule predicts the bromine to add to the **more substituted** carbon (C2), but here it adds to the **less substituted** carbon (C3). This deviation from Markovnikov orientation indicates **non-Markovnikov addition**. 
+
+**Answer:** B. Non-Markovnikov orientation.

@@ -1,0 +1,21 @@
+<think>
+Okay, let's try to figure out this question. The question is asking what caused the shift from mechanical to organic solidarity. The options are A. Competition, B. The Enlightenment, C. Division of labor, D. Class consciousness.
+
+First, I need to recall what mechanical and organic solidarity are. From what I remember, mechanical solidarity refers to a type of social structure where people are bound together by shared values, beliefs, and traditions, often in small, tight-knit groups. This is typically found in traditional societies where everyone is part of the same community, and there's a strong sense of mutual dependence. On the other hand, organic solidarity is a more complex form of social structure where people are bound together by specialized roles and interdependence in a larger, more complex society. This is common in modern industrialized societies where people have specialized jobs and rely on each other for different tasks.
+
+So the shift from mechanical to organic solidarity would be the transition from small, traditional communities to larger, more complex societies. Now, looking at the options:
+
+A. Competition: Competition could be a factor, but I'm not sure if it's the main cause. Competition might lead to more specialization, but I think the key factor is the development of industrialization and the division of labor.
+
+B. The Enlightenment: The Enlightenment was a period of intellectual and cultural development that emphasized reason, individualism, and science. It might have contributed to the rise of organic solidarity by promoting rational thought and individualism, but I'm not sure if that's the direct cause.
+
+C. Division of labor: This seems more directly related. The division of labor refers to the specialization of tasks within a society. As societies become more complex, people can't do everything themselves, so they rely on others for different tasks. This leads to interdependence and the need for different roles, which is characteristic of organic solidarity.
+
+D. Class consciousness: Class consciousness refers to the awareness of social class differences. While this might be a result of organic solidarity, it's not the cause. The shift from mechanical to organic is more about the structure of society rather than class relations.
+
+So, putting it all together, the shift from mechanical to organic solidarity is primarily due to the division of labor. As societies become more complex and specialized, people can't rely on each other for everything, leading to a more interconnected and interdependent society. The other options might play a role, but division of labor is the most direct cause.
+</think>
+
+The shift from mechanical to organic solidarity is primarily caused by the **division of labor** (Option C). As societies grow more complex, specialization arises, leading to interdependence and specialized roles, which are hallmarks of organic solidarity. 
+
+**Answer:** C. Division of labor
