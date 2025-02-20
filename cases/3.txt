@@ -1,0 +1,33 @@
+<think>
+Okay, let's see. The problem is about calculating the total time it takes for a client to receive an HTML object after clicking a link. The client's browser needs to go through several steps: first, it has to perform a DNS lookup to get the IP address of the server hosting the object. Then, once it has the IP address, it can connect to the server and download the HTML.
+
+The question mentions that four DNS servers are visited before the IP address is obtained. The first is the local DNS cache, which has an RTT of 4 milliseconds. The next three have RTTs of 14, 9, and 34 milliseconds respectively. Then, after getting the IP address, there's an RTT of 95 milliseconds to the Web server. The transmission time for the HTML is zero, so we don't have to worry about that part.
+
+Let me break this down step by step. The client starts by clicking the link, which triggers the browser to initiate a DNS lookup. The first step is to check the local DNS cache. If the IP address is not cached there, the browser will proceed to query the next DNS servers. Since there are four DNS servers visited, the first is the local cache, and then three more. So, the client first checks the local cache (RTT0 = 4 ms). If not found there, it queries the next three servers with RTTs 14, 9, and 34 ms. Once the IP address is obtained, the client then connects to the Web server with an RTT of 95 ms.
+
+Now, the total time elapsed from the client clicking the link until receiving the object would be the sum of all these RTTs. Let's list them out:
+
+1. Local DNS cache check: 4 ms
+2. First DNS server (RTT1): 14 ms
+3. Second DNS server (RTT2): 9 ms
+4. Third DNS server (RTT3): 34 ms
+5. Web server connection (RTTHTTP): 95 ms
+
+Adding these up: 4 + 14 + 9 + 34 + 95.
+
+Let me compute that step by step. 4 + 14 is 18. 18 + 9 is 27. 27 + 34 is 61. 61 + 95 is 156. So the total time is 156 milliseconds.
+
+Wait, but let me double-check. The problem states that four DNS servers are visited before receiving the IP address. The first is the local cache, then three more. So that's four servers in total. The RTTs are RTT0 (4 ms), RTT1 (14), RTT2 (9), RTT3 (34). Then RTTHTTP (95). So adding all these: 4 +14=18, +9=27, +34=61, +95=156. Yes, that seems right.
+
+But hold on, the question says "how much time (in msec) elapses from when the client clicks on the link until the client receives the object?" So all the RTTs from the DNS lookups and the connection to the server. Since the transmission time for the HTML is zero, we don't have to add any more time for that. So the total time is indeed the sum of all the RTTs mentioned.
+
+Therefore, the answer should be 156 milliseconds.
+</think>
+
+The total time elapsed is the sum of all RTTs involved in the DNS lookups and the connection to the Web server. 
+
+\[
+\text{Total Time} = RTT_0 + RTT_1 + RTT_2 + RTT_3 + RTT_{HTTP} = 4 + 14 + 9 + 34 + 95 = 156 \text{ milliseconds}
+\]
+
+\boxed{156}
