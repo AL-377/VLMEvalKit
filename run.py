@@ -209,11 +209,11 @@ def main():
 
         if not osp.exists(pred_root):
             os.makedirs(pred_root, exist_ok=True)
-
-        if use_config:
-            model = build_model_from_config(cfg['model'], model_name)
-
+    
         for _, dataset_name in enumerate(args.data):
+            if use_config:
+                model = build_model_from_config(cfg['model'], model_name)
+
             try:
                 result_file_base = f'{model_name}_{dataset_name}.xlsx'
 

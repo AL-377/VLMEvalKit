@@ -1,5 +1,5 @@
 import pandas as pd
-from ...utils import can_infer, track_progress_rich
+from ...utils import can_infer, track_progress_rich, extract_boxed_content
 from ...smp import *
 import numpy as np
 import re
@@ -158,15 +158,16 @@ def build_prompt(question, options, prediction):
         'You are provided with a question, several options, and an answer, '
         'and you need to find which option is most similar to the answer. '
         'If the meaning of all options are significantly different from the answer, output Z. '
-        'Your should output a single uppercase character in A, B, C, D (if they are valid options), and Z. \n'
+        'Your should output a single uppercase character in \\boxed, '
+        'such as \\boxed{{A}}, \\boxed{{B}}, \\boxed{{C}}, \\boxed{{D}} (if they are valid options), and \\boxed{{Z}}. \n'
         'Example 1: \n'
         'Question: What is the main object in image?\nOptions: A. teddy bear B. rabbit C. cat D. dog\n'
-        'Answer: a cute teddy bear\nYour output: A\n'
+        'Answer: a cute teddy bear\nYour output: \\boxed{{A}}\n'
         'Example 2: \n'
         'Question: What is the main object in image?\nOptions: A. teddy bear B. rabbit C. cat D. dog\n'
-        'Answer: Spider\nYour output: Z\n'
+        'Answer: Spider\nYour output: \\boxed{{Z}}\n'
         'Example 3: \n'
-        'Question: {}?\nOptions: {}\nAnswer: {}\nYour output: '
+        'Question: {}?\nOptions: {}\nAnswer: {}\nYour output:'
     )
     return tmpl.format(question, options, prediction)
 
@@ -286,6 +287,10 @@ def extract_answer_from_item(model, item, dataset_name=None):
         if 'Failed to obtain answer via API' in ans:
             logger.warning('GPT API failed to answer. ')
         else:
+            boxed_ans = extract_boxed_content(ans)
+            if boxed_ans in choices:
+                return dict(opt=extract_boxed_content(ans), log=ans)
+
             ret = can_infer(ans, choices)
             if ret:
                 return dict(opt=ret, log=ans)
